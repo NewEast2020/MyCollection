@@ -156,6 +156,7 @@ public class SpelenMetCalendar {
         System.out.println(" ");
     }
 }
+
 /* output
  === spelenMetLocalDate_of() ===
 datum: 2020-04-21
@@ -212,5 +213,4 @@ localDate.minusDays(i): 2020-02-29
 datum: 2020-02-28
 
 datum.minusMonths(1).minusDays(4): 2020-02-26
-
  */

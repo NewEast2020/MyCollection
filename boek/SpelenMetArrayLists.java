@@ -42,11 +42,6 @@ public class SpelenMetArrayLists {
 
         for (int i=1; i<=5; i++) mijnBoekenLijst.add(boek1);
 
-//        mijnBoekenLijst.add(boek1);
-//        mijnBoekenLijst.add(boek1);
-//        mijnBoekenLijst.add(boek1);
-//        mijnBoekenLijst.add(boek1);
-//
         System.out.println("=== De boekenlijst bestaat uit 3 unieke boeken, maar de arraylist bestaat uit 7 elementen ===");
         printMijnBoekenLijstEnhanced(mijnBoekenLijst);
 

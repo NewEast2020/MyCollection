@@ -85,10 +85,20 @@ public class SpelenMetCalendar {
 
     private static void spelenMetPeriod() {
         System.out.println("Periods");
+        spelenMetPeriod_of_LocalDate_now_plus_min_argperiode();
+
+        spelenMetPeriod_parse();
+
+        spelenMetPeriod_ofYears_ofMonths_ofDays();
+    }
+
+    private static void spelenMetPeriod_of_LocalDate_now_plus_min_argperiode() {
         Period periode = Period.of(0, 2, 90);
         System.out.println("Betaaldatum: " + LocalDate.now().plus(periode)); // met plus kan ik een periode bij een datum optellen
         System.out.println("Verzenddatum: " + LocalDate.now().minus(periode));
+    }
 
+    private static void spelenMetPeriod_parse() {
         Period period2 = Period.parse("p2Y33m7d"); //"p2Y7d33m" levert een DateTimeParseException op.
         System.out.println(period2);
         period2 = Period.parse("p2Y33m2w7d"); // van W(-eken) maakt hij altijd dagen // volgorde van groot naar klein
@@ -97,7 +107,10 @@ public class SpelenMetCalendar {
         System.out.println(period2);
         period2 = Period.parse("-p-1y2m-3d"); // -y mag niet, moet dan -1y zijn
         System.out.println("-p-1y2m-3d => " + period2);
+    }
 
+    private static void spelenMetPeriod_ofYears_ofMonths_ofDays() {
+        Period periode;
         periode = Period.ofYears(12).ofMonths(10).ofDays(2);
         System.out.println(periode); // Wat is hier de uitkomst van? P12Y10M2D P2D
         Period.ofYears(12);

@@ -80,4 +80,55 @@ public class SpelenMetArrayLists {
         System.out.println(" ");
     }
 }
+/* output
+Nijntje leert Scrum
+Nijntje leert Java
+Harry Potter deel 3
+Harry Potter deel 2
 
+Titel boek: Nijntje leert Scrum Onbekend
+boek.auteur = Ik weet het echt niet
+Titel boek: Nijntje leert Java Onbekend
+boek.auteur = Ik weet het echt niet
+Titel boek: Harry Potter deel 3 Onbekend
+boek.auteur = Ik weet het echt niet
+Titel boek: Harry Potter deel 2 Onbekend
+boek.auteur = Ik weet het echt niet
+
+=== Nog een keer door de loop ===
+Titel boek: Nijntje leert Scrum Ik weet het echt niet
+Titel boek: Nijntje leert Java Ik weet het echt niet
+Titel boek: Harry Potter deel 3 Ik weet het echt niet
+Titel boek: Harry Potter deel 2 Ik weet het echt niet
+
+Titel boek: Nijntje leert Scrum Ik weet het echt niet
+Titel boek: Nijntje leert Java Ik weet het echt niet
+Titel boek: Harry Potter deel 2 Ik weet het echt niet
+
+Nijntje leert Java
+3
+=== wat zit er in de lijst ===
+Titel boek: Nijntje leert Scrum Ik weet het echt niet
+Titel boek: Nijntje leert Java Ik weet het echt niet
+
+=== De boekenlijst bestaat uit 3 unieke boeken, maar de arraylist bestaat uit 7 elementen ===
+Titel boek: Nijntje leert Scrum Ik weet het echt niet
+Titel boek: Nijntje leert Java Ik weet het echt niet
+Titel boek: Harry Potter deel 1 null
+Titel boek: Harry Potter deel 1 null
+Titel boek: Harry Potter deel 1 null
+Titel boek: Harry Potter deel 1 null
+Titel boek: Harry Potter deel 1 null
+
+=== Boek verwijderen ===
+true
+Titel boek: Nijntje leert Scrum Ik weet het echt niet
+Titel boek: Nijntje leert Java Ik weet het echt niet
+Titel boek: Harry Potter deel 1 null
+Titel boek: Harry Potter deel 1 null
+Titel boek: Harry Potter deel 1 null
+Titel boek: Harry Potter deel 1 null
+
+=== mijnBoekenLijst ===
+[boek.Boek@28d93b30, boek.Boek@1b6d3586, boek.Boek@4554617c, boek.Boek@4554617c, boek.Boek@4554617c, boek.Boek@4554617c]
+ */

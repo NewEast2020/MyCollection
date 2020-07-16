@@ -12,3 +12,7 @@ public class SpeelToString {
     }
 }
 
+/* output
+Mijn appel is groen van kleur en weegt 100 gram.
+Mijn appel is rood van kleur en weegt 200 gram.
+ */

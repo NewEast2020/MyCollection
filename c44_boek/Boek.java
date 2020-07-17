@@ -1,4 +1,4 @@
-package boek;
+package c44_boek;
 
 class Boek {
     String naam;

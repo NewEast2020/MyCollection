@@ -1,4 +1,4 @@
-package duikboot;
+package c43_duikboot;
 
 public class SpelenMetArrays {
     public static void main(String[] args) {

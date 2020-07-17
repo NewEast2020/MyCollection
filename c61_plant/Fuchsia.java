@@ -1,4 +1,4 @@
-package plant;
+package c61_plant;
 
 class Fuchsia extends Plant {
     // Fuchsia erft de instantie variabele int hoogte

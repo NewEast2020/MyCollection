@@ -1,4 +1,4 @@
-package plant;
+package c61_plant;
 
 class Klimop extends Plant {
     Klimop(int hoogte) {

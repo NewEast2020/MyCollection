@@ -1,4 +1,4 @@
-package plant;
+package c61_plant;
 
 abstract class Plant {
     int hoogte = 70; // instantie variabele, die willen we setten bij het aanmaken van een plant!

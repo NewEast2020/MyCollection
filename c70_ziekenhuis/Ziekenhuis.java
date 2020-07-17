@@ -1,4 +1,4 @@
-package ziekenhuis;
+package c70_ziekenhuis;
 
 class Ziekenhuis {
     private int beginBezoek = 1300;

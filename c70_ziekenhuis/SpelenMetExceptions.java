@@ -1,4 +1,4 @@
-package ziekenhuis;
+package c70_ziekenhuis;
 
 public class SpelenMetExceptions {
     public static void main(String[] args) throws Throwable{

@@ -1,4 +1,4 @@
-package c6_lambda1;
+package c67_lambda1;
 
 class MultiplyTwee implements MyFunctionalInterface {
     @Override

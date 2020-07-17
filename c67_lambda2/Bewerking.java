@@ -1,4 +1,4 @@
-package c6_lambda2;
+package c67_lambda2;
 
 import java.util.function.Consumer;
 

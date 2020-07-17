@@ -1,4 +1,4 @@
-package c6_lambda3;
+package c67_lambda3;
 
 import java.util.*;
 import java.util.function.Predicate;

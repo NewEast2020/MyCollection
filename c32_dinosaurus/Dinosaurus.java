@@ -1,4 +1,4 @@
-package dinosaurus;
+package c32_dinosaurus;
 
 class Dinosaurus {
     String soort;

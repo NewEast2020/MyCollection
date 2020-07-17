@@ -1,4 +1,4 @@
-package dinosaurus;
+package c32_dinosaurus;
 
 public class SpelenMetLeashes {
     public static void main(String[] args) {

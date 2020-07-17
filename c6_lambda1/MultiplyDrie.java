@@ -1,4 +1,4 @@
-package lambda1;
+package c6_lambda1;
 
 class MultiplyDrie implements MyFunctionalInterface {
     @Override

@@ -1,4 +1,4 @@
-package lambda3;
+package c6_lambda3;
 
 class Appel {
     private String kleur; // private field

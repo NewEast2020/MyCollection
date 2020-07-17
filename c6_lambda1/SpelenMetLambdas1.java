@@ -1,4 +1,4 @@
-package lambda1;
+package c6_lambda1;
 
 public class SpelenMetLambdas1 {
     public static void main(String[] args) {

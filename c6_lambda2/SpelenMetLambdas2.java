@@ -1,4 +1,4 @@
-package lambda2;
+package c6_lambda2;
 
 import java.util.function.Consumer;
 import java.util.function.Predicate;

@@ -1,4 +1,4 @@
-package zwembad;
+package c32_zwembad;
 
 class Zwembad {
     // state, oftewel de globale variabelen van de class

@@ -15,7 +15,7 @@ class Zwembad
     ○	Toon de nieuwe naam van het zwembad via de originele orv
 * */
 
-package zwembad;
+package c32_zwembad;
 public class SpelenMetLeashes2 {
     public static void main(String[] args) { // standard main
         // besturing v/d zwembaden

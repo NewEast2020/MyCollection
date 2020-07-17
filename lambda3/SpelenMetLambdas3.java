@@ -33,7 +33,6 @@ public class SpelenMetLambdas3 {
         spelenMet_appels_stream_map_collect(appels);
 
         spelenMetDuplicatesVerwijderen(appels);
-
     }
 
     private static void spelenMet_appels_stream_map_collect(List<Appel> appels) {
@@ -151,3 +150,55 @@ public class SpelenMetLambdas3 {
         System.out.println();
     }
 }
+/* output
+SpeelMetToString
+     Mijn appel is groen van kleur en weegt 100 gram.
+     Mijn appel is rood van kleur en weegt 200 gram.
+
+TestPredicateFunctionalInterface()
+     rodeLichteAppel (100) > 150 g: false
+     rodeZwareAppel (200) > 150 g: true
+     rodeLichteAppel is groen: false
+     groenLichteAppel is groen: true
+
+FilterListAppelMetforLoop()
+     Mijn appel is groen van kleur en weegt 200 gram.
+
+SpelenMet_appels_stream()
+Met streams (GEEN OCA; wel waar je lambda's oa voor gebruikt
+ === appels.stream 1 :  .filter(regel150Gram)
+Mijn appel is groen van kleur en weegt 200 gram.
+
+ === appels.stream 2 ; .filter(appel -> appel.getGewicht() <= 100)
+Mijn appel is rood van kleur en weegt 100 gram.
+
+ === appels.stream 3:  .filter(appel -> appel.isLichterDan(101))
+Mijn appel is rood van kleur en weegt 100 gram.
+
+ === appels.stream 4
+Mijn appel is rood van kleur en weegt 200 gram.
+
+ === appels.stream 5 : .filter(appel -> appel.isKleur(groen))
+Mijn appel is groen van kleur en weegt 100 gram.
+Mijn appel is groen van kleur en weegt 200 gram.
+
+ === appels.stream 6 : .filter(appel -> appel.isZwaarderDan(50))
+Mijn appel is groen van kleur en weegt 100 gram.
+Mijn appel is rood van kleur en weegt 100 gram.
+Mijn appel is groen van kleur en weegt 200 gram.
+Mijn appel is rood van kleur en weegt 200 gram.
+Mijn appel is geel van kleur en weegt 150 gram.
+
+spelenMet_appels_stream_collect()
+totaalGewicht appels = 750
+
+spelenMet_appels_stream_map_collect()
+kleuren van de appels: [groen, rood, groen, rood, geel]
+
+spelenMetDuplicatesVerwijderen()
+duplicate kleuren: [groen, rood, groen, rood, geel]
+
+no duplicates kleuren: [geel, rood, groen]
+
+no duplicates waarden: [1, 2, 3, 4, 5, 6, 7]
+ */

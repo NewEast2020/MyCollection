@@ -1,4 +1,4 @@
-package onderzeeer;
+package c35_onderzeeer;
 
 class Onderzeeer {
     Onderzeeer(String naam, String kleur, int tonnage) {

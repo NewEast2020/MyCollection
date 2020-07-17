@@ -1,4 +1,4 @@
-package tafel;
+package c33_tafel;
 
 public class SpelenMethodCall {
     public static void main(String[] args) {
@@ -27,3 +27,7 @@ public class SpelenMethodCall {
         return oppervlakte;
     }
 }
+/* output
+oppervlakte = 2000
+oppervlakte = 2000
+ */

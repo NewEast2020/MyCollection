@@ -1,4 +1,4 @@
-package tafel;
+package c33_tafel;
 
 class Tafel {
     int getLengte() {

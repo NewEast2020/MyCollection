@@ -1,4 +1,4 @@
-package appel;
+package c42_3_appel;
 
 class Appel {
     private String kleur; // private field

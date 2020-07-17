@@ -1,4 +1,4 @@
-package appel;
+package c42_3_appel;
 //      Opzet van de class Appels met een override van de toString en Encapsulation
 public class SpeelToString {
     public static void main(String[] args) {

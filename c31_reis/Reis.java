@@ -1,4 +1,4 @@
-package reis;
+package c31_reis;
 
 class Reis {
     static int staticGetal = 123;

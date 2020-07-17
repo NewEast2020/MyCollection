@@ -1,4 +1,4 @@
-package reis;
+package c31_reis;
 
 public class SpelenMetScope {
     public static void main(String[] args) { // String[] args => methode variabele
@@ -41,4 +41,17 @@ public class SpelenMetScope {
         // Hier wel null pointer exception.
     }
 }
+/*
+=== testScope1 ===
+busReis.testGetal: 50
+busReis: null
+U bent vergeten het object te initialiseren met een echt object
+=== testScope2 ===
+Reis.staticGetal: 123
+wandeling.staticGetal: 123
+wandeling.staticGetal: 123
+Exception in thread "main" java.lang.NullPointerException
+	at reis.SpelenMetScope.testScope2(SpelenMetScope.java:40)
+	at reis.SpelenMetScope.main(SpelenMetScope.java:9)
 
+ */

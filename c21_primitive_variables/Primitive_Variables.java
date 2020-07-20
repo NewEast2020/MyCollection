@@ -104,7 +104,7 @@ public class Primitive_Variables {
     }
 }
 
-/*
+/* output
 b = 125
 b = 126
 b = 127

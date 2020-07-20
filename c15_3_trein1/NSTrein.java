@@ -8,7 +8,7 @@ class NSTrein {
     static int locNrStart = 100;
     int gegenereerdelocNr;
 
-    static NSTrein maakEenNSTrein() {
+    static NSTrein maakEenNSTrein() { /* statisch methode */
         NSTrein nsTrein = new NSTrein();
         locNrStart++; // locNr ophogen
         nsTrein.gegenereerdelocNr = locNrStart; // Vul het veld van de trein met de statische (zojuist opgehoogde) waarde

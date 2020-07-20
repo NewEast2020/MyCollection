@@ -1,6 +1,6 @@
 package trein1;
 
-public class SpelenMetTreinen1 {
+public class SpelenMet_Statisch_Instance_Field_Static_Method {
     public static void main(String[] args) {
         System.out.println("spoorbreedte: " + NSTrein.spoorBreedte);
         NSTrein.spoorBreedte = 120; // static variabelen kun je op de static manier (via de class) en via de instance benaderen

@@ -1,4 +1,4 @@
-package c24_2_operators;
+package c24_2_operators1;
 
 public class ArithmeticOperators {
     public static void main(String[] args) {

@@ -1,6 +1,6 @@
-package c25_6_wrapper_classes;
+package c25_6_wrapper_classes1;
 
-public class Comparing_Objects_Of_Wrapper_Classes256 {
+public class Comparing_Objects_Of_Wrapper_Classes1 {
     public static void main(String[] args) {
         Integer getal1 = 50;
         Integer getal2 = new Integer(50); // maak een NEW object aan.

@@ -1,4 +1,4 @@
-package trein1;
+package c15_3_trein1;
 
 class NSTrein {
     static int spoorBreedte = 130; // Dit is een class variabele ook wel static variabele genoemd

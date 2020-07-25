@@ -1,4 +1,4 @@
-package trein1;
+package c15_3_trein1;
 
 public class SpelenMet_Statisch_Instance_Field_Static_Method {
     public static void main(String[] args) {

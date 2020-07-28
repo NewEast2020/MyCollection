@@ -2,7 +2,7 @@ package c44_kaarten2;
 
 import java.util.ArrayList;
 
-class SpelenMetArrayslist2 {
+class SpelenMetArraylist2 {
 
     public static void main(String[] args) {
         Kaartspel2 kaartspel = new Kaartspel2(); // de constructor gaat voor mij een kaartspel maken
@@ -21,7 +21,6 @@ class Kaartspel2 {
         kaarten.add(kaart2);
         kaarten.add(new Kaart2("Ruiten","2"));
         kaarten.add(new Kaart2("Ruiten","3"));
-
     }
 
     void schudden() {
@@ -29,3 +28,8 @@ class Kaartspel2 {
         // code voor het schudden van de kaarten
     }
 }
+/* output
+Harten Aas
+Ruiten 4
+Kaarten gaan geschud worden
+*/

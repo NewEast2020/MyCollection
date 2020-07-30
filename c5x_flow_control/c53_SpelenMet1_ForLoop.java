@@ -7,7 +7,6 @@ class c53_SpelenMet1_ForLoop {
         // for ( initializatie ; conditie ; update_actie ) statement
         // alle 3 opties zijn facultatief
 
-
         for (int i = 0; i < 10; i++) System.out.println("i = " + i);
         for (int i = 0, k = 1; i < 10; i++) System.out.println("i,k " + i + ", " + k);
         // mag meerdere variabele declareren/initializeren, LET OP:

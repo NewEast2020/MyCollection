@@ -1,4 +1,4 @@
-package c6x_Inheritance;
+package c6x_Inheritance.demo2;
 
 class DemoInheritancePolymorphisme2 {
     public static void main(String[] args) {

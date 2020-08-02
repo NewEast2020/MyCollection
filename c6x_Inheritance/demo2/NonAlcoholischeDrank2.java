@@ -1,4 +1,4 @@
-package c6x_Inheritance;
+package c6x_Inheritance.demo2;
 
 abstract class NonAlcoholischeDrank2 extends Drank2 {
     int suikerPercentage;

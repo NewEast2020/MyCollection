@@ -1,4 +1,4 @@
-package c6x_Inheritance;
+package c6x_Inheritance.demo2;
 
 abstract class Drank2 {
     abstract void drinken(); // default

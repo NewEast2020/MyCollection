@@ -1,7 +1,7 @@
-package c6x_Inheritance;
+package c6x_Inheritance.demo3;
 
-abstract class Drank3 {
-    abstract void drinken(); // default
+public abstract class Drank3 {
+    public abstract void drinken(); // default
     // overriding & zichtbaarheid
     // een private methode kun je niet overriden, want die heb je alleen voor jezelf
     // private (default, wordt ook wel package private), protected, public

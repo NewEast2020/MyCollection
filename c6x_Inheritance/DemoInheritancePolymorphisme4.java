@@ -1,5 +1,9 @@
 package c6x_Inheritance;
 
+import c6x_Inheritance.demo3.*;
+import c6x_Inheritance.demo2.*;
+
+
 class DemoInheritancePolymorphisme4 {
     public static void main(String[] args) {
         Drank3 whiskey = new Whiskey3();

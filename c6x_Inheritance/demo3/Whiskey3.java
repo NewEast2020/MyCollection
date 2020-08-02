@@ -1,8 +1,8 @@
-package c6x_Inheritance;
+package c6x_Inheritance.demo3;
 
-class Whiskey3 extends AlcoholischeDrank3 {
+public class Whiskey3 extends AlcoholischeDrank3 {
     @Override
-    void drinken() {
+    public void drinken() {
         System.out.println("De mensen die dit drinken, drinken dit met kleine slokken, maar David heeft aan 1 slok genoeg.");
     }
 }

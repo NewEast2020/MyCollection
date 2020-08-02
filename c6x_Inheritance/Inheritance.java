@@ -1,5 +1,8 @@
 package c6x_Inheritance;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Inheritance {
     public static void main(String[] args) {
 
@@ -99,10 +102,10 @@ class DemoInheritanceMetFields1 {
 
         // met casting kan ik naar de andere variabele
         System.out.println("Nu met casten");
-        System.out.println( ((Meubelair)tafel).aantalPoten); // Er zit een tafel in en dat is Meubilair, dus casten Tafel naar Meubilair kan en mag.
-        System.out.println( ((Tafel)mTafel).aantalPoten); // Er zit een tafel in en dat is een Tafel, dus casten van Meubilair naar Tafel kan en mag.
+        System.out.println( ((Meubelair1)tafel).aantalPoten); // Er zit een tafel in en dat is Meubilair, dus casten Tafel naar Meubilair kan en mag.
+        System.out.println( ((Tafel1)mTafel).aantalPoten); // Er zit een tafel in en dat is een Tafel, dus casten van Meubilair naar Tafel kan en mag.
         // Door te casten kan ik altijd bij de andere variabele met dezelfde naam in de parent of child!!
-        System.out.println( ((Meubelair)(Object)(Auto)(Object)(Meubelair)(Meubelair)(Tafel)(Tafel)(Tafel)mTafel).aantalPoten); // Er zit een tafel in en dat is een Tafel, dus casten van Meubilair naar Tafel kan en mag.
+        System.out.println( ((Meubelair1)(Object)(Auto)(Object)(Meubelair1)(Meubelair1)(Tafel1)(Tafel1)(Tafel1)mTafel).aantalPoten); // Er zit een tafel in en dat is een Tafel, dus casten van Meubilair naar Tafel kan en mag.
         // ClassCastException, want een Tafel is geen Auto (we hebben het veld aantalPoten aan Auto toegevoegd om de code te laten compileren)
         // Je loog tegen mij alsof ik een kind was... => Exception
         // De compiler kijkt alleen van cast naar cast of dit kan, niet naar de keten in zijn geheel.
@@ -129,9 +132,9 @@ class Stoel1 extends Meubelair1 {
 
 public class DemoInheritanceMetFields2 {
     public static void main(String[] args) {
-        Meubelair meubelairMeubilair = new Meubelair();
-        Meubelair meubelairTafel = new Tafel();
-        Tafel tafelTafel = new Tafel();
+        Meubelair2 meubelairMeubilair = new Meubelair2();
+        Meubelair2 meubelairTafel = new Tafel2();
+        Tafel2 tafelTafel = new Tafel2();
         meubelairMeubilair.aantalPoten = 4; // Dit is het int veld van de class Meubilair
         meubelairTafel.aantalPoten = 6; // Dit is het int veld van de class Meubilair
         tafelTafel.aantalPoten = 10; // Dit is het int veld van de class Tafel
@@ -141,7 +144,7 @@ public class DemoInheritanceMetFields2 {
 
         System.out.println();
 //        meubelairTafel.tafelOppervlakte = 105; // compiler kijkt naar links. Links van het type Meubilair en Meubilair kent dit veld niet.!!!! Dus compile error
-        ((Tafel)meubelairTafel).tafelOppervlakte = 105; // maar gelukkig kunnen we er via casting ALTIJD bij!!!
+        ((Tafel2)meubelairTafel).tafelOppervlakte = 105; // maar gelukkig kunnen we er via casting ALTIJD bij!!!
         tafelTafel.tafelOppervlakte = 80;
 
     }
@@ -268,10 +271,10 @@ class Card{
 
 class DemoInheritancePolymorphisme2 {
     public static void main(String[] args) {
-        Drank bier = new Bier();
-        Drank whiskey = new Whiskey();
-        Drank fanta = new Fanta();
-        Drank cola = new Cola();
+        Drank2 bier = new Bier2();
+        Drank2 whiskey = new Whiskey2();
+        Drank2 fanta = new Fanta2();
+        Drank2 cola = new Cola2();
         bier.drinken();
         whiskey.drinken();
         fanta.drinken();
@@ -328,20 +331,20 @@ class Fanta1 extends NonAlcoholischeDrank1 {
 
 class DemoInheritancePolymorphisme3 {
     public static void main(String[] args) {
-        Drank bier = new Bier();
-        Drank whiskey = new Whiskey();
-        Drank fanta = new Fanta();
-        Drank cola = new Cola();
+        Drank3 bier = new Bier3();
+        Drank3 whiskey = new Whiskey3();
+        Drank3 fanta = new Fanta3();
+        Drank3 cola = new Cola3();
         bier.drinken();
         whiskey.drinken();
         fanta.drinken();
         cola.drinken();
 
-        ((Bier)bier).alcoholPercentage = 5; // Casten naar NonAlcoholDranken had ook gemogen
-        AlcoholischeDrank whiskey2 = (Whiskey)whiskey;
+        ((Bier3)bier).alcoholPercentage = 5; // Casten naar NonAlcoholDranken had ook gemogen
+        AlcoholischeDrank3 whiskey2 = (Whiskey3)whiskey;
         whiskey2.alcoholPercentage = 40;
-        System.out.println(((Bier)bier).alcoholPercentage);
-        ((Bier)bier).toonAlcoholPercentage();
+        System.out.println(((Bier3)bier).alcoholPercentage);
+        ((Bier3)bier).toonAlcoholPercentage();
         whiskey2.toonAlcoholPercentage();
     }
 }
@@ -400,27 +403,27 @@ class Fanta2 extends NonAlcoholischeDrank2 {
 
 class DemoInheritancePolymorphisme4 {
     public static void main(String[] args) {
-        Drank whiskey = new Whiskey();
-        Drank fanta = new Fanta();
-        Drank cola = new Cola();
+        Drank4 whiskey = new Whiskey4();
+        Drank4 fanta = new Fanta4();
+        Drank4 cola = new Cola4();
         whiskey.drinken();
         fanta.drinken();
         cola.drinken();
 
-        AlcoholischeDrank whiskey2 = (Whiskey)whiskey;
+        AlcoholischeDrank4 whiskey2 = (Whiskey4)whiskey;
         whiskey2.alcoholPercentage = 40;
         whiskey2.toonAlcoholPercentage();
 
-        Drank bier = new Bier();
+        Drank4 bier = new Bier4();
         bier.drinken();
         System.out.println();
         // veld alcoholpercentage is nu dubbel. DUS: kijk naar het type van links (of naar de Cast, dat heeft hetzelfde effect
-        ((AlcoholischeDrank)bier).alcoholPercentage = 8;  // links AlcoholischeDrank, dus int veld van class AlcoholischeDrank
-        System.out.println("int veld bij Alc Drank: " + ((AlcoholischeDrank)bier).alcoholPercentage);
-        ((Bier)bier).alcoholPercentage = 5; // links Bier, dus int veld van class Bier
-        System.out.println("int veld bij Bier     : " + ((Bier)bier).alcoholPercentage);
-        ((AlcoholischeDrank)bier).toonAlcoholPercentage();  // hier treedt polymorphisme op, want links Alc.Drank, maar gedrag is overriden, dus methode van Bier uitvoeren.
-        ((Bier)bier).toonAlcoholPercentage();
+        ((AlcoholischeDrank4)bier).alcoholPercentage = 8;  // links AlcoholischeDrank, dus int veld van class AlcoholischeDrank
+        System.out.println("int veld bij Alc Drank: " + ((AlcoholischeDrank4)bier).alcoholPercentage);
+        ((Bier4)bier).alcoholPercentage = 5; // links Bier, dus int veld van class Bier
+        System.out.println("int veld bij Bier     : " + ((Bier4)bier).alcoholPercentage);
+        ((AlcoholischeDrank4)bier).toonAlcoholPercentage();  // hier treedt polymorphisme op, want links Alc.Drank, maar gedrag is overriden, dus methode van Bier uitvoeren.
+        ((Bier4)bier).toonAlcoholPercentage();
 //        bier.toonAlcoholPercentage(); // Zo kom ik er niet bij want we verwijzen naar de instantie van bier vanuit een orv van het type Drank en deze kent die methode niet.
     }
 }
@@ -487,11 +490,11 @@ class Fanta3 extends NonAlcoholischeDrank3 {
 
 class DemoInheritancePolymorphisme5 {
     public static void main(String[] args) {
-        Drank whiskey = new Whiskey();
-        Drank fanta = new Fanta();
-        Drank cola = new Cola();
-        List<Drank> drankLijst = geefDrankLijst();
-        for (Drank drank : drankLijst) {
+        Drank4   whiskey = new Whiskey4();
+        Drank4 fanta = new Fanta4();
+        Drank4 cola = new Cola4();
+        List<Drank4> drankLijst = geefDrankLijst();
+        for (Drank4 drank : drankLijst) {
             System.out.println(drank.getClass());
 //            if (drank instanceof Bier) { // past dit object in een orv van het type Bier
 //                System.out.println("biertje!");
@@ -509,26 +512,26 @@ class DemoInheritancePolymorphisme5 {
 //                System.out.println("Drank!");
 //            }
 
-            if (drank instanceof AlcoholischeDrank) {
-                System.out.println("Alcohol percentage: " + ((AlcoholischeDrank)drank).alcoholPercentage);
-            } else if (drank instanceof NonAlcoholischeDrank) {
-                System.out.println("Suikerpercentage:   " + ((NonAlcoholischeDrank)drank).suikerPercentage);
+            if (drank instanceof AlcoholischeDrank4) {
+                System.out.println("Alcohol percentage: " + ((AlcoholischeDrank4)drank).alcoholPercentage);
+            } else if (drank instanceof NonAlcoholischeDrank4) {
+                System.out.println("Suikerpercentage:   " + ((NonAlcoholischeDrank4)drank).suikerPercentage);
             } else {
                 System.out.println("Valt buiten de alcoholische en non alcoholische dranken"); // binnen ons model kan dit op dit moment NIET voorkomen.
             }
         }
     }
 
-    private static List<Drank> geefDrankLijst() {
-        List<Drank> drankjes = new ArrayList<>();
-        drankjes.add(new Bier());
-        drankjes.add(new Whiskey());
-        drankjes.add(new Cola());
-        drankjes.add(new Fanta());
-        drankjes.add(new Bier());
-        drankjes.add(new Bier());
-        drankjes.add(new Bier());
-        drankjes.add(new Bier());
+    private static List<Drank4> geefDrankLijst() {
+        List<Drank4> drankjes = new ArrayList<>();
+        drankjes.add(new Bier4());
+        drankjes.add(new Whiskey4());
+        drankjes.add(new Cola4());
+        drankjes.add(new Fanta4());
+        drankjes.add(new Bier4());
+        drankjes.add(new Bier4());
+        drankjes.add(new Bier4());
+        drankjes.add(new Bier4());
         return drankjes;
     }
 }

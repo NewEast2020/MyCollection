@@ -1,4 +1,4 @@
-package c6x_Inheritance;
+package c6x_Inheritance.demo1;
 
 class Cola1 extends NonAlcoholischeDrank1 {
     public void drinken() { // Doordat bij NonAlcoholisch de methode protected is gemaakt, moet deze protected of public zijn!!

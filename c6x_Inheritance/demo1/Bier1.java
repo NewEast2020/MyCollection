@@ -1,4 +1,6 @@
-package c6x_Inheritance;
+package c6x_Inheritance.demo1;
+
+import c6x_Inheritance.demo1.AlcoholischeDrank1;
 
 class Bier1 extends AlcoholischeDrank1 {
     @Override

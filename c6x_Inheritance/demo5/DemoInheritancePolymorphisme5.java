@@ -52,3 +52,21 @@ class DemoInheritancePolymorphisme5 {
         return drankjes;
     }
 }
+/* output
+class c6x_Inheritance.demo4.Bier4
+Alcohol percentage: 10
+class c6x_Inheritance.demo4.Whiskey4
+Alcohol percentage: 10
+class c6x_Inheritance.demo4.Cola4
+Suikerpercentage:   30
+class c6x_Inheritance.demo4.Fanta4
+Suikerpercentage:   30
+class c6x_Inheritance.demo4.Bier4
+Alcohol percentage: 10
+class c6x_Inheritance.demo4.Bier4
+Alcohol percentage: 10
+class c6x_Inheritance.demo4.Bier4
+Alcohol percentage: 10
+class c6x_Inheritance.demo4.Bier4
+Alcohol percentage: 10
+ */

@@ -1,4 +1,4 @@
-package c6x_Inheritance;
+package c6x_Inheritance.demo5;
 
 import c6x_Inheritance.demo4.*;
 

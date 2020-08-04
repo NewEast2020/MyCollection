@@ -1,5 +1,5 @@
 package c6x_Inheritance.demo4;
 
-abstract class AlcoholischeDrank4 extends Drank4 {
-    int alcoholPercentage = 10;
+public abstract class AlcoholischeDrank4 extends Drank4 {
+    public int alcoholPercentage = 10;
 }

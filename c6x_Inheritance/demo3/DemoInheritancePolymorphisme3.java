@@ -19,3 +19,17 @@ class DemoInheritancePolymorphisme3 {
         whiskey2.toonAlcoholPercentage();
     }
 }
+/* output
+Bier drink je met grote slokken. Klok, klok... Leeg
+De mensen die dit drinken, drinken dit met kleine slokken, maar David heeft aan 1 slok genoeg.
+Fanta3, lekker fris op voor op een warme dag, wanneer het zonnetje schijnt.
+Cola3, is het lekkerst met een ijsklontje en met prik. Zonder prik is het niet te zuipen.
+5
+Let op: de methode toonAlcoholPercentage gaan we nu overriden!!!!
+Bier3 heeft een alcoholpercentage van 5%.
+In de parent (AlcoholischeDrank staat dit veld ook:0
+roep super.toonAlcoholPercentage aan
+Bier3 heeft een alcoholpercentage van 0%.
+--- einde methode ----
+Whiskey3 heeft een alcoholpercentage van 40%.
+ */

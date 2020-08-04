@@ -1,5 +1,7 @@
 package c6x_Inheritance;
 
+import c6x_Inheritance.demo4.AlcoholischeDrank4;
+
 class Whiskey4 extends AlcoholischeDrank4 {
     @Override
     void drinken() {

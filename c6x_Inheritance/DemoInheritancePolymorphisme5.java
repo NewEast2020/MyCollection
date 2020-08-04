@@ -1,11 +1,13 @@
 package c6x_Inheritance;
 
+import c6x_Inheritance.demo4.*;
+
 import java.util.ArrayList;
 import java.util.List;
 
 class DemoInheritancePolymorphisme5 {
     public static void main(String[] args) {
-        Drank4   whiskey = new Whiskey4();
+        Drank4 whiskey = new Whiskey4();
         Drank4 fanta = new Fanta4();
         Drank4 cola = new Cola4();
         List<Drank4> drankLijst = geefDrankLijst();

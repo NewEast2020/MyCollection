@@ -1,4 +1,4 @@
-package c6x_Inheritance;
+package c6x_Inheritance.demo4;
 
 class Bier4 extends AlcoholischeDrank4 {
     protected void drinken() { // protected is een grotere zichtbaarheid, dan default, dus dat mag

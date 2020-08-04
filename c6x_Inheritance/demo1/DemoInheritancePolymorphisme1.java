@@ -9,3 +9,10 @@ class DemoInheritancePolymorphisme1 {
         System.out.println(new Card("Schoppen", 2));
     }
 }
+/* output
+1
+java.lang.Object@28d93b30
+tekst
+Klaveren 4
+Schoppen 2
+ */

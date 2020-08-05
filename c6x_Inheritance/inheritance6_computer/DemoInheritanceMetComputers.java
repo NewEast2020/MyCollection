@@ -1,4 +1,4 @@
-package c6x_Inheritance;
+package c6x_Inheritance.inheritance6_computer;
 
 class DemoInheritanceMetComputers {
     public static void main(String[] args) {

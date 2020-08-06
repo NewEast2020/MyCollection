@@ -1,6 +1,6 @@
-package c6x_Inheritance;
+package c6x_Inheritance.inheritance7_fields;
 
-class DemoInheritanceMetFields1 {
+class Inheritance7_MetFields1 {
     public static void main(String[] args) {
         Meubelair1 meubelairMeubilair = new Meubelair1();
         Meubelair1 meubelairTafel = new Tafel1();

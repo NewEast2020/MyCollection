@@ -1,4 +1,4 @@
-package c6x_Inheritance;
+package c6x_Inheritance.inheritance6_computer;
 
 abstract class Computer { // Wanneer je een class abstract maakt, kun je er geen instanties meer van maken.
     int geheugenGrootte;

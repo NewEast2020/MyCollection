@@ -32,3 +32,16 @@ class Inheritance7_MetFields1 {
         // (Auto)(Tafel) => compileert niet
     }
 }
+/* uitvoer
+4
+6
+10
+
+11
+7
+Nu met casten
+7
+11
+Exception in thread "main" java.lang.ClassCastException: c6x_Inheritance.inheritance7_fields.Tafel1 cannot be cast to c6x_Inheritance.inheritance7_fields.Auto
+	at c6x_Inheritance.inheritance7_fields.Inheritance7_MetFields1.main(Inheritance7_MetFields1.java:27)
+ */

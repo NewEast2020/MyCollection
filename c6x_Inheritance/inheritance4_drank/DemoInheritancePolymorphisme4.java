@@ -28,3 +28,25 @@ class DemoInheritancePolymorphisme4 {
 //        bier.toonAlcoholPercentage(); // Zo kom ik er niet bij want we verwijzen naar de instantie van bier vanuit een orv van het type Drank en deze kent die methode niet.
     }
 }
+/* output
+De mensen die dit drinken, drinken dit met kleine slokken, maar David heeft aan 1 slok genoeg.
+Fanta3, lekker fris op voor op een warme dag, wanneer het zonnetje schijnt.
+Cola4, is het lekkerst met een ijsklontje en met prik. Zonder prik is het niet te zuipen.
+Whiskey3 heeft een alcoholpercentage van 40%.
+Bier drink je met grote slokken. Klok, klok... Leeg
+
+int veld bij Alc Drank: 8
+int veld bij Bier     : 5
+Let op: de methode toonAlcoholPercentage gaan we nu overriden!!!!
+Bier3 heeft een alcoholpercentage van 5%.
+In de parent (AlcoholischeDrank staat dit veld ook:8
+roep super.toonAlcoholPercentage aan
+Bier3 heeft een alcoholpercentage van 8%.
+--- einde methode ----
+Let op: de methode toonAlcoholPercentage gaan we nu overriden!!!!
+Bier3 heeft een alcoholpercentage van 5%.
+In de parent (AlcoholischeDrank staat dit veld ook:8
+roep super.toonAlcoholPercentage aan
+Bier3 heeft een alcoholpercentage van 8%.
+--- einde methode ----
+ */

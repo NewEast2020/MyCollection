@@ -13,3 +13,8 @@ class DemoInheritanceMetComputers {
         ((PortableDevice)laptop).touchScreen = false; // casten naar een abstracte class mag, want je mag zeggen PortableDevice device = new Laptop(); (PD is abstract)
     }
 }
+/*
+De computer start op
+De computer start op
+De computer start op
+ */

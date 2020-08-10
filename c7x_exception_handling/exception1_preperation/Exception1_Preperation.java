@@ -84,5 +84,11 @@ class Exception1_Preperation {
         System.out.println("OracleTestID gekoppeld aan Oracle account van gebruiker: " + oracleAccount.persoonsGegevens);
         return true;
     }
-
 }
+/* output
+Maar laat Erik met rust!
+Exception in thread "main" c7x_exception_handling.exception1_preperation.OracleException
+	at c7x_exception_handling.exception1_preperation.Exception1_Preperation.maakOracleAccount(Exception1_Preperation.java:58)
+	at c7x_exception_handling.exception1_preperation.Exception1_Preperation.voorbereidenAanvraagOcaExamen(Exception1_Preperation.java:43)
+	at c7x_exception_handling.exception1_preperation.Exception1_Preperation.main(Exception1_Preperation.java:13)
+*/

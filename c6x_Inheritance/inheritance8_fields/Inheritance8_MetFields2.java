@@ -1,6 +1,6 @@
 package c6x_Inheritance.inheritance8_fields;
 
-class DemoInheritanceMetFields2 {
+class Inheritance8_MetFields2 {
     public static void main(String[] args) {
         Meubelair2 meubelairMeubilair = new Meubelair2();
         Meubelair2 meubelairTafel = new Tafel2();
@@ -16,6 +16,5 @@ class DemoInheritanceMetFields2 {
 //        meubelairTafel.tafelOppervlakte = 105; // compiler kijkt naar links. Links van het type Meubilair en Meubilair kent dit veld niet.!!!! Dus compile error
         ((Tafel2)meubelairTafel).tafelOppervlakte = 105; // maar gelukkig kunnen we er via casting ALTIJD bij!!!
         tafelTafel.tafelOppervlakte = 80;
-
     }
 }

@@ -1,4 +1,4 @@
-package c6x_Inheritance;
+package c6x_Inheritance.inheritance8_fields;
 
 class DemoInheritanceMetFields2 {
     public static void main(String[] args) {

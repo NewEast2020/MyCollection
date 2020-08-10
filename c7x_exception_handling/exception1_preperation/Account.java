@@ -1,4 +1,4 @@
-package c7x_exception_handling;
+package c7x_exception_handling.exception1_preperation;
 
 class Account {
     String organisatie;

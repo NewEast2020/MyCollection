@@ -1,10 +1,10 @@
-package c7x_exception_handling;
+package c7x_exception_handling.exception1_preperation;
 
 import java.io.IOException;
 import java.util.Random;
 
 //public
-class PrepExceptions {
+class Exception1_Preperation {
 
     static long count;
 

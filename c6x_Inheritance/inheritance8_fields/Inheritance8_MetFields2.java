@@ -18,3 +18,8 @@ class Inheritance8_MetFields2 {
         tafelTafel.tafelOppervlakte = 80;
     }
 }
+/* output
+4
+6
+10
+ */

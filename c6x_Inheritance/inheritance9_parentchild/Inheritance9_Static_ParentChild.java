@@ -48,3 +48,18 @@ class Inheritance9_Static_ParentChild {
 
     }
 }
+/* output
+Static waarde van de parent class
+10
+11
+We zitten nu in de static methode van de class Parent
+We zitten nu in de static methode van de class Child
+Wat als we deze methodes via de instanties gaan aanroepen
+We zitten nu in de static methode van de class Parent
+We zitten nu in de static methode van de class Parent
+We zitten nu in de static methode van de class Child
+15
+class c6x_Inheritance.inheritance9_parentchild.Parent
+class c6x_Inheritance.inheritance9_parentchild.Child
+Child
+ */

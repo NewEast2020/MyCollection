@@ -1,7 +1,4 @@
-package c6x_Inheritance;
-
-import java.util.ArrayList;
-import java.util.List;
+package c6x_Inheritance.inheritance9_parentchild;
 
 public class Inheritance {
     public static void main(String[] args) {

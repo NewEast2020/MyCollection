@@ -1,4 +1,4 @@
-package c6x_Inheritance;
+package c6x_Inheritance.inheritance9_parentchild;
 
 class Child extends Parent {
     static int staticWaardeVanChildClass = 20;

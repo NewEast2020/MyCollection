@@ -1,6 +1,6 @@
-package c6x_Inheritance;
+package c6x_Inheritance.inheritance9_parentchild;
 
-class DemoInheritanceStatic {
+class Inheritance9_Static_ParentChild {
     public static void main(String[] args) {
         Object objectParent = new Parent(); //  Dit mag een instantie van Parent past in een orv v/h type Object (Links is gelijk of groter dan rechts)
 

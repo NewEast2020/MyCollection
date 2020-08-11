@@ -1,7 +1,6 @@
-package c7x_exception_handling;
+package c7x_exception_handling.exception3_returnvalues;
 
-//public
-class DemoReturnValues {
+public class Exception3_ReturnValues {
 
     public static void main(String[] args) {
 

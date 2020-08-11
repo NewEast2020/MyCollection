@@ -12,3 +12,6 @@ public class Exception5_Overriding {
         return getal1 / getal2;
     }
 }
+/* output
+
+*/

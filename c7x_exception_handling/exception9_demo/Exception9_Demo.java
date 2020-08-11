@@ -44,3 +44,11 @@ public class Exception9_Demo {
 //        getallen[100] = 10; // Dit levert een ArrayIndexOutOfBoundsException op, maar compileert wel!! Dus voorbeeld van een RuntimeException
     }
 }
+/* uitvoer
+java.lang.Exception
+	at c7x_exception_handling.exception9_demo.Exception9_Demo.testException(Exception9_Demo.java:17)
+	at c7x_exception_handling.exception9_demo.Exception9_Demo.main(Exception9_Demo.java:5)
+Exception in thread "main" java.lang.Exception
+	at c7x_exception_handling.exception9_demo.Exception9_Demo.testException(Exception9_Demo.java:17)
+	at c7x_exception_handling.exception9_demo.Exception9_Demo.main(Exception9_Demo.java:5)
+ */

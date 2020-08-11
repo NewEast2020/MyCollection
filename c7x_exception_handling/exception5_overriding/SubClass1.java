@@ -1,8 +1,8 @@
-package c7x_exception_handling;
+package c7x_exception_handling.exception5_overriding;
 
 import java.io.FileNotFoundException;
 
-class DemoSubClass extends DemoOverriding {
+public class SubClass1 extends Exception5_Overriding {
 
     public int delen(int getal1, int getal2) throws FileNotFoundException {
         return 10 * getal1 / getal2;

@@ -21,3 +21,6 @@ public class Exception6_LastThrown {
         }
     }
 }
+/*
+exception = finally
+ */

@@ -1,7 +1,6 @@
-package c7x_exception_handling;
+package c7x_exception_handling.exception2_exceptions;
 
-//public
-class DemoExceptions {
+public class Exception2_Exceptions {
 
     public static void main(String[] args) {
         onmiddellijkStoppen();

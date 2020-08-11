@@ -15,3 +15,9 @@ public class Exception4_ExceptionInInitializer {
         System.out.println("voer programma uit");
     }
 }
+/* output
+java.lang.ExceptionInInitializerError
+Caused by: java.lang.RuntimeException: blabla
+	at c7x_exception_handling.exception4_ininitializer.Exception4_ExceptionInInitializer.<clinit>(Exception4_ExceptionInInitializer.java:7)
+Exception in thread "main"
+ */

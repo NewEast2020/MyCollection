@@ -15,3 +15,6 @@ class HoofdClass {
         this.naam = naam;
     }
 }
+/* uitput
+(geen uitvoer)
+*/

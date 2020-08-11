@@ -1,23 +1,15 @@
 package c7x_exception_handling;
 
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.util.Random;
-
 public class ExceptionHandling {
 
     public static void main(String[] args) {
 
     }
 }
-
-//        ===================================
+//        ==========
 //        Exceptions
-//        ===================================
-
+//        ==========
 // =============================================================================================
-// =============================================================================================
-//
 //        Exceptions zijn Java classes/objecten, immers alles in Java is (afgeleid van) een object!
 //        ●	 Figuur 7.9 pag 477 uit je hoofd kennen!
 //        ●	Herken a) welke exceptions to welk type behoren en b) welke exceptions een parent-child relatie hebben!
@@ -61,13 +53,12 @@ public class ExceptionHandling {
 //        ●	let op variabelen die binnen try-catch-finally block 	gedefinieerd zijn; zijn LOKALE variabelen enkel bekend binnen eigen block; daarbuiten out-of-scope
 //        ●	indien catch op “checked exceptions” test, dan moeten in het try-block (=protected block) statements voorkomen waarvan minstens 1 de betreffende exception gedeclareerd heeft (throws exception). Dit geldt voor alle subclasses van Exception, maar niet voor Exception of Throwable zelf.
 //        ●
-        // ========================================================================================================
-        // ========================================================================================================
-
-//========
+// ========================================================================================================
+//==================
 //STUKJE INHERITANCE
-//========
+//==================
 //extends vs implements
 //●	een class extends AnotherClass en implements AnInterface (let op volgorde: extends komt vóór implements)
 //●	een Interface extends AnotherInterface
 //●	een Interface kan niet een andere interface implementeren
+// ========================================================================================================

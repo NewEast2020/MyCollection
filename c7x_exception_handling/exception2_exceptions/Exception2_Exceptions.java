@@ -29,3 +29,6 @@ public class Exception2_Exceptions {
         // alles wat hierna zou staan zou unrechable code zijn!
     }  // andere schijfwijze voor hierboven. Eigenlijk vreemd dat geen returnwaarde gegeven is  = valkuil
 }
+/* output
+getal2 gevangentest in getal2
+ */

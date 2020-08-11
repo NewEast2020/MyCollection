@@ -62,3 +62,6 @@ public class ExceptionHandling {
 //●	een Interface extends AnotherInterface
 //●	een Interface kan niet een andere interface implementeren
 // ========================================================================================================
+/* output
+  (geen uitvoer)
+*/

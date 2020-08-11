@@ -1,7 +1,6 @@
-package c7x_exception_handling;
+package c7x_exception_handling.exception4_ininitializer;
 
-//public
-class DemoExceptionInInitializer {
+public class Exception4_ExceptionInInitializer {
 
     static {
         if (true)

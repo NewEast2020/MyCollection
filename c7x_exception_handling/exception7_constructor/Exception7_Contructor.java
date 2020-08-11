@@ -7,3 +7,6 @@ class Exception7_Contructor {
 
     }
 }
+/* output
+   (geen uitvoer)
+*/

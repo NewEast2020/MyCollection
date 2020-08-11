@@ -51,3 +51,10 @@ public class Exception3_ReturnValues {
         }
     }
 }
+/* output
+2
+==============
+3
+==============
+ catch  finally
+ */

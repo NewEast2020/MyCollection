@@ -1,8 +1,8 @@
-package c7x_exception_handling;
+package c7x_exception_handling.exception5_overriding;
 
 import java.io.IOException;
 
-class DemoOverriding {
+public class Exception5_Overriding {
 
     public static void main(String[] args) {
 

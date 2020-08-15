@@ -51,8 +51,8 @@ public class Datatypes003_overflow {
         System.out.println("sum = " + sum);
     }
     // sum = 1.0000000000000004 // close to 1.00
-    // floating point representation is imprecise
-    // watch for integer overflows and floating point underflows
+    // floating point representation most of the imprecise representation of quantities
+    // watch for integer overflows and floating point underflows in our calculations
 
     static void Oef004() {
 

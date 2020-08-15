@@ -4,7 +4,7 @@ public class References001_reference_types {
 
     public static void main(String[] args) {
 //        Oef001();
-        Oef002();
+//        Oef002();
         Oef003();
         Oef004();
         Oef005();
@@ -49,7 +49,7 @@ public class References001_reference_types {
 
     static void Oef002() {
         Integer a ;  // a is object reference type
-        System.out.println("a = " + a);
+//        System.out.println("a = " + a);
         // variable a is defined in the method
         // a defined as a local variable
         // local variable has to be explicitly initialized before you can reference it

@@ -1,6 +1,6 @@
 package c2x_datatypes;
 
-public class Datatypes003_overflow {
+public class Datatypes003_overflow_underflow {
 // Overflow : results in inaccurate representation of input
 // Underflow ; results in imprecise representation of input
 

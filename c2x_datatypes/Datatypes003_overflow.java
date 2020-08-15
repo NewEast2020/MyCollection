@@ -53,34 +53,6 @@ public class Datatypes003_overflow {
     // sum = 1.0000000000000004 // close to 1.00
     // floating point representation most of the imprecise representation of quantities
     // watch for integer overflows and floating point underflows in our calculations
-
-    static void Oef004() {
-
-    }
-
-    static void Oef005() {
-
-    }
-
-    static void Oef006() {
-
-    }
-
-    static void Oef007() {
-
-    }
-
-    static void Oef008() {
-
-    }
-
-    static void Oef009() {
-
-    }
-
-    static void Oef010() {
-
-    }
 }
 
 

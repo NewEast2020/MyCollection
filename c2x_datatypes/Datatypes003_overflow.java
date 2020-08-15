@@ -6,7 +6,7 @@ public class Datatypes003_overflow {
 
     public static void main(String[] args) {
 //        Oef001();
-        Oef002();
+//        Oef002();
         Oef003();
         Oef004();
         Oef005();
@@ -38,14 +38,21 @@ public class Datatypes003_overflow {
         System.out.println("too_small = " + too_small);
         System.out.println('0' + Integer.toBinaryString(too_small));
     }
-   // min = -2147483648
-   // 10000000000000000000000000000000  // 1 shows it is a negative number
-   // too_small = 2147483647 // largest number
-   // 01111111111111111111111111111111
+    // min = -2147483648
+    // 10000000000000000000000000000000  // 1 shows it is a negative number
+    // too_small = 2147483647 // largest number
+    // 01111111111111111111111111111111
 
-    static void Oef003() {
-
+    static void Oef003() { // example of underflow
+        double sum = 0;
+        for (int i = 0; i < 50; i++) {
+            sum += 0.02; // imperfect representation of 0.02
+        }
+        System.out.println("sum = " + sum);
     }
+    // sum = 1.0000000000000004 // close to 1.00
+    // floating point representation is imprecise
+    // watch for integer overflows and floating point underflows
 
     static void Oef004() {
 

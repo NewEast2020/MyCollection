@@ -52,11 +52,11 @@ public class References001_reference_types {
     }
     // in Java a set of object reference types that a related to the eight primitive types
     // they are called wrapper classes
-    // they allow us conviniently to treat primitive data as objects if we want to 2113
+    // they allow us conviniently to treat primitive data as objects if we want to
     // Its wrapper class has a set of static helper methods
     // Integer class has
-    // a valueOf method that returns an Integer object reference and 21:33
-    // a parseInt method that returns a primitive int 21:38
+    // a valueOf method that returns an Integer object reference and
+    // a parseInt method that returns a primitive int
 
     // Three diiferent ways to create a wrapper object ;
     static void Oef003() {

@@ -12,12 +12,12 @@ public class References002_java_identifiers {
     // classes
     // interfaces
     // and members 2229
-    // Exam : identify valid identifiers 2237
+    // Exam : identify valid identifiers
     // there are three rules for legal identifiers
 
     // 1.must begin with a letter
     // 2.must begin with a $ (dollar)
-    // 3.must begin with a _ (underscore) 22:39
+    // 3.must begin with a _ (underscore)
 
     // 4.can not use special characters except $ and _
     // 5.can not use Java reserved words

@@ -6,19 +6,12 @@ public class References001_reference_types {
 //        Oef001();
 //        Oef002();
         Oef003();
-        Oef004();
-        Oef005();
-        Oef006();
-        Oef007();
-        Oef008();
-        Oef009();
-        Oef010();
     }
 
-    static Integer a ;  // a is object refernce type
+    static Integer a;  // a is object refernce type
     static int waarde1 = 22;
 
-    static void Oef001() {
+    static void Oef001() { // static variable Integer in the class outside the method
         // the variable name waarde is synonymous with the value its holds
         int waarde2;
         waarde2 = waarde1; // value getting copied
@@ -27,7 +20,7 @@ public class References001_reference_types {
 
 
         Integer b;
-        b = a ;
+        b = a;
         System.out.println("a = " + a); // variable a is never initialized ; static Integer: null :reference to no object
         // a variable is never initialized, can be anything, whatever what was stored in the memory location previously
         // a defined as a static variable
@@ -47,8 +40,8 @@ public class References001_reference_types {
         // the refences getting copied not the objects
     }
 
-    static void Oef002() {
-        Integer a ;  // a is object reference type
+    static void Oef002() { // local variable Integer in the method
+        Integer a;  // a is object reference type
 //        System.out.println("a = " + a);
         // variable a is defined in the method
         // a defined as a local variable
@@ -58,38 +51,26 @@ public class References001_reference_types {
         // =========== compile error : java: variable a might not have been initialized =============
     }
     // in Java a set of object reference types that a related to the eight primitive types
+    // they are called wrapper classes
+    // they allow us conviniently to treat primitive data as objects if we want to 2113
+    // Its wrapper class has a set of static helper methods
+    // Integer class has
+    // a valueOf method that returns an Integer object reference and 21:33
+    // a parseInt method that returns a primitive int 21:38
 
+    // Three diiferent ways to create a wrapper object ;
     static void Oef003() {
-
+        int a = 123;
+        Integer b = new Integer(a);             //  1 : use a prinmtive int
+        Integer c = new Integer("123");      //  2 ; use a String
+        Integer d = Integer.parseInt("123"); //  3 ; use a String
+        Integer e = a;                          //  4 autoboxing : assign primitive to an Integer reference type
+        //    java does the type conversion for us automatically
+        // All wrapper classes behave in similair way
+        System.out.println(a + " " + b);
+        System.out.println(c + " " + d + " " + e);
     }
-
-    static void Oef004() {
-
-    }
-
-    static void Oef005() {
-
-    }
-
-    static void Oef006() {
-
-    }
-
-    static void Oef007() {
-
-    }
-
-    static void Oef008() {
-
-    }
-
-    static void Oef009() {
-
-    }
-
-    static void Oef010() {
-
-    }
+    // 123 123
+    // 123 123 123
 }
-
 

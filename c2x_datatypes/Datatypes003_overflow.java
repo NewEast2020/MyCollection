@@ -8,13 +8,6 @@ public class Datatypes003_overflow {
 //        Oef001();
 //        Oef002();
         Oef003();
-        Oef004();
-        Oef005();
-        Oef006();
-        Oef007();
-        Oef008();
-        Oef009();
-        Oef010();
     }
 
     static void Oef001() { // example of overflow

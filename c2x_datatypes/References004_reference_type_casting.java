@@ -16,7 +16,15 @@ public class References004_reference_type_casting {
     }
 
     static void Oef001(){
+        Integer b = 123; // primitive integer converted to an integer Object through autoboxing
+        Object a = b; // copies one object reference to another
+                      // assigning value of a reference type to another reference type
+                      // both a and b point to the same object
+                      // it worked because the Object class type is a super class of the Integer class type
+                      // only one object is created
 
+        System.out.println("a = " + a);
+        System.out.println("b = " + b);
     }
     static void Oef002(){
 

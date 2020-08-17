@@ -3,7 +3,7 @@ package c2x_datatypes;
 public class References004_reference_type_casting {
 
     public static void main(String[] args) {
-        Oef001();
+//        Oef001();
         Oef002();
         Oef003();
         Oef004();
@@ -26,9 +26,30 @@ public class References004_reference_type_casting {
         System.out.println("a = " + a);
         System.out.println("b = " + b);
     }
-    static void Oef002(){
 
-    }
+    static void Oef002(){
+        Integer a = 123; // a and b are reference types
+        Object b = a; // a and b points to the same object
+        a = (Integer)b; // casting solves the compile error
+                        // b is in fact pointing to an Integer object
+        //a = b; // compile error
+                 // java: incompatible types: java.lang.Object cannot be converted to java.lang.Integer
+                 // assigning an object class type to an integer class type xxx not possible
+                 // They do not know that the 2 references point to the same object
+                 // Remember the code is not run yet
+                 // a=b not aloud bcause Integer class is not a superclass of the Object class
+        System.out.println(b instanceof Integer);
+        System.out.println(b instanceof Object);
+        System.out.println(a instanceof Integer);
+        System.out.println(a instanceof Object);
+
+        System.out.println("a = " + a);
+    } // true
+      // true
+      // true
+      // true
+      // a = 123
+
     static void Oef003(){
 
     }

@@ -8,12 +8,7 @@ public class References003_primitive_type_casting {
 //        Oef003();
         Oef004();
         Oef005();
-        Oef006();
-        Oef007();
-        Oef008();
-        Oef009();
-        Oef010();
-    }
+ }
 
     static void Oef001(){
         char a = 'a';
@@ -60,23 +55,22 @@ public class References003_primitive_type_casting {
     } // a = 12
 
     static void Oef005(){
-
+//        int a = (int)true;       // java: incompatible types: boolean cannot be converted to int
+                  // try to cast a boolean into an int
+                  // boolean is not aloud in type casting at all !!!
+                  // boolean is incompatible with any other primitive types
+//        boolean b = (boolean)1;  // java: incompatible types: int cannot be converted to boolean
+                  // try to cast an int into a boolean
+//        System.out.println(a+b); // java: bad operand types for binary operator '+'
+//                                 //       first type:  int
+//                                 //       second type: boolean
     }
-    static void Oef006(){
 
-    }
-    static void Oef007(){
-
-    }
-    static void Oef008(){
-
-    }
-    static void Oef009(){
-
-    }
-    static void Oef010(){
-
-    }
+// what is th tak away here ?
+// 1. we are aloud to convert between primitive types
+// 2. when we use type casting we may loose information in the process
+// 3. we must keep this in mind
+// 4.
 }
 
 

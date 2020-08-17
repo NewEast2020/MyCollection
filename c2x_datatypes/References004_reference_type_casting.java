@@ -50,6 +50,12 @@ public class References004_reference_type_casting {
       // true
       // a = 123
 
+    //  ==== the rules ===                                                   // Integer a = 123;
+    // subclass type to superclass type conversion is automatic              // Object b = a;
+    // superclass type to subclass type conversion requires an explicit cast // a = (Integer)b;
+    // Conversion between unrelated reference types is not allowed           // reference type has to be related
+                                            // reference type must be compatible with the object type
+
     static void Oef003(){
 
     }

@@ -5,7 +5,7 @@ public class References003_primitive_type_casting {
     public static void main(String[] args) {
 //        Oef001();
 //        Oef002();
-        Oef003();
+//        Oef003();
         Oef004();
         Oef005();
         Oef006();
@@ -52,9 +52,13 @@ public class References003_primitive_type_casting {
       // 101
       // 100000101
 
-    static void Oef004(){
+    static void Oef004() {
+        int a = (int) 12.3; // int can not store fractional part
+                            // lost fractional part in the type casting
+                            // example of information loss due to type casting
+        System.out.println("a = " + a);
+    } // a = 12
 
-    }
     static void Oef005(){
 
     }

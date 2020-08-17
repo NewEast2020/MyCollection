@@ -4,7 +4,7 @@ public class References003_primitive_type_casting {
 
     public static void main(String[] args) {
 //        Oef001();
-        Oef002();
+//        Oef002();
         Oef003();
         Oef004();
         Oef005();
@@ -40,8 +40,18 @@ public class References003_primitive_type_casting {
     }
 
     static void Oef003(){
+        byte b = (byte) 261;
+                 // 261 is an int and cannot assigned to a byte
+                 // cannot go from wider type to a narrow type
+                 //
+        System.out.println("b = " + b);
+                 // byte uses only 8 bits
+        System.out.println(Integer.toBinaryString(b));
+        System.out.println(Integer.toBinaryString(261));
+    } // b = 5
+      // 101
+      // 100000101
 
-    }
     static void Oef004(){
 
     }

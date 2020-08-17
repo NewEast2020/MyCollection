@@ -16,8 +16,14 @@ public class References003_primitive_type_casting {
     }
 
     static void Oef001(){
-
+        char a = 'a';
+        int b = a;
+        System.out.println("a = " + a);
+        System.out.println("b = " + b);
     }
+   // a = a
+   // b = 97
+
     static void Oef002(){
 
     }

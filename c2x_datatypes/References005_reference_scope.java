@@ -57,7 +57,34 @@ class Main2 {
 // constructor: 3
 // 3
 
+class Main3 {
+    public static void main(String[] args) {
+        Main3 a = new Main3();
+        Main3 b = a;
+        System.out.println("a:"+a);
+        a = null;
+        System.out.println("b:"+b);
+        b = null;
 
+        System.gc();
+        System.out.println("end of main()");
+    }
+
+    public void finalize(){
+        System.out.println("Bye from: "+this);
+    }
+}
+// try
+// a: Main3.main@hex
+// b: Main3.main@hex
+// end of main()
+// Bye from:
+
+// real output
+// a:c2x_datatypes.Main3@1540e19d
+// b:c2x_datatypes.Main3@1540e19d
+// end of main()
+// Bye from: c2x_datatypes.Main3@1540e19d
 public class References005_reference_scope {
 
     public static void main(String[] args) {

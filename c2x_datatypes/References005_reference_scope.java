@@ -16,8 +16,6 @@ class Main {
 // the other in the print1 method as an input parameter
 // use 2 print methods to print variable a
 
-
-
     public void print(){
         System.out.println(a);
     }
@@ -31,6 +29,34 @@ class Main {
 // 123
 // 234
 // 123
+
+
+class Main2 {
+    // instance variable must be initialized before referenced
+    // by oonstructors
+    // by initializer blocks
+
+    public Integer a;
+
+    public Main2(){
+        a = 3;
+        System.out.println("constructor: "+a);
+    }
+
+    {
+        a = 2;
+        System.out.println("initializer: "+a);
+    }
+
+    public static void main(String[] args) {
+        System.out.println(new Main2().a);
+    }
+}
+// output
+// initializer: 2
+// constructor: 3
+// 3
+
 
 public class References005_reference_scope {
 

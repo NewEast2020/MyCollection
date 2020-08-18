@@ -85,6 +85,30 @@ class Main3 {
 // b:c2x_datatypes.Main3@1540e19d
 // end of main()
 // Bye from: c2x_datatypes.Main3@1540e19d
+
+class Main4 {
+    public static void main(String[] args) {
+        Main4 a = new Main4();
+        Main4 b = a;
+        System.out.println("a:"+a);
+        a = null;
+        System.out.println("b:"+b);
+//        b = null;
+
+        System.gc();
+        System.out.println("end of main()");
+    }
+
+    public void finalize(){
+        System.out.println("Bye from: "+this);
+    }
+}
+
+// real output
+// a:c2x_datatypes.Main4@1540e19d
+// b:c2x_datatypes.Main4@1540e19d
+// end of main()
+// geen bye !!
 public class References005_reference_scope {
 
     public static void main(String[] args) {

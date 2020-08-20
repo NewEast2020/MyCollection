@@ -1,4 +1,4 @@
-package c2x_datatypes;
+package c1x_datatypes;
 
 public class References003_primitive_type_casting {
 

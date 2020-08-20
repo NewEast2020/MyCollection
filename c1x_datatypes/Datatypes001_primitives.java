@@ -1,4 +1,4 @@
-package c2x_datatypes;
+package c1x_datatypes;
 // java assigns a == data type == to each and every == piece of data == ,
 // including hard-coded literal values
 public class Datatypes001_primitives {

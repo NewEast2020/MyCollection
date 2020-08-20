@@ -4,7 +4,7 @@ public class Operators001_unary_operators {
 
     public static void main(String[] args) {
 //        Oef001();
-        Oef002();
+//        Oef002();
         Oef003();
         Oef004();
         Oef005();
@@ -40,7 +40,7 @@ public class Operators001_unary_operators {
     //  42
     // -42
 
-    // ~ = bitwise complement operators
+    // ~ = (tilde unary operator) bitwise complement operators
     // only applied to integer value
     // performs the function by flipping the bits of the integer
     // internally every integer value is represented by a string of bits
@@ -59,9 +59,37 @@ public class Operators001_unary_operators {
 
     // 12345678901234567890123456789012 = 32
 
-    static void Oef003(){
+    // ! = (exclamation unary operator) unary logical not operator
+    // operator negates boolean value
+    // boolean type has only 2 possible values: true or false
+    // opposite of true is false and
+    // opposite of false is true
 
+
+    // ++ = shorthand increment operator
+    // -- = shorthand decrement operator
+    // can only be used on variables
+    // they calculated a new numerical value
+    // thet assign the new value back to the variable
+
+    static void Oef003(){
+        int a = 42;
+        System.out.println("a = " + a);
+        System.out.println("++a = " + ++a);  // pre increment: incremented before printed
+        System.out.println("a = " + a);
+        System.out.println("a++ = " + a++); // post increment: printed before incremented
+        System.out.println("a = " + a);
+        System.out.println("--a = " + --a); // pre decrement: : decremented before printed
+        System.out.println("a = " + a);
     }
+    //   a = 42
+    // ++a = 43
+    //   a = 43
+    // a++ = 43
+    //   a = 44
+    // --a = 43
+    //   a = 43
+
     static void Oef004(){
 
     }

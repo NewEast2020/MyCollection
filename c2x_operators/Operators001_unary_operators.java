@@ -3,7 +3,7 @@ package c2x_operators;
 public class Operators001_unary_operators {
 
     public static void main(String[] args) {
-        Oef001();
+//        Oef001();
         Oef002();
         Oef003();
         Oef004();
@@ -40,9 +40,25 @@ public class Operators001_unary_operators {
     //  42
     // -42
 
-    static void Oef002(){
+    // ~ = bitwise complement operators
+    // only applied to integer value
+    // performs the function by flipping the bits of the integer
+    // internally every integer value is represented by a string of bits
+    // the complement of the bit pattern can be obtained by turning the zeros to ones
+    // and the ones to zeros
 
+    static void Oef002(){
+        int a = 42;
+        System.out.println(Integer.toBinaryString(a));
+        System.out.println(Integer.toBinaryString(~a));
     }
+    //                           101010  = last 6 bits of the pattern, leading zeros ommitted by java
+    // 11111111111111111111111111010101  = complement bit pattern of 42,
+    //                                     last 6 bits are flipped,
+    //                                     leading zeros become one
+
+    // 12345678901234567890123456789012 = 32
+
     static void Oef003(){
 
     }

@@ -29,16 +29,27 @@ public class Operators002_binary_operators {
      // logic shift
 
     static void Oef001(){
-        System.out.println("1 << 1" + (1 << 1);
-        System.out.println((-1 << 1));
-        System.out.println(4 >> 1);
-        System.out.println(-4 >> 1);
-        System.out.println(1 >> 1);
-        System.out.println(-4 >>> 1);
-        System.out.println(Integer.toBinaryString(-4));
-        System.out.println(Integer.toBinaryString(-4>>1));
-        System.out.println(Integer.toBinaryString(-4>>>1));
+        System.out.println("1 << 1: " + (1 << 1));
+        System.out.println("-1 << 1: " + (-1 << 1));
+        System.out.println("4 >> 1: " + (4 >> 1));
+        System.out.println("-4 >> 1: " + (-4 >> 1));
+        System.out.println("1 >> 1: " + (1 >> 1));
+        System.out.println("-4 >>> 1 :" + (-4 >>> 1));
+        System.out.println("Integer.toBinaryString(-4): " + (Integer.toBinaryString(-4)));
+        System.out.println("Integer.toBinaryString(-4>>1): " + (Integer.toBinaryString(-4>>1)));
+        System.out.println("Integer.toBinaryString(-4>>>1): " + (Integer.toBinaryString(-4>>>1)));
     }
+    // output
+    //  1 << 1: 2
+    // -1 << 1: -2
+    // 4 >> 1: 2
+    // -4 >> 1: -2
+    // 1 >> 1: 0
+    // -4 >>> 1 :2147483646
+    // Integer.toBinaryString(-4): 11111111111111111111111111111100
+    // Integer.toBinaryString(-4>>1): 11111111111111111111111111111110
+    // Integer.toBinaryString(-4>>>1): 1111111111111111111111111111110
+
     static void Oef002(){
 
     }

@@ -15,8 +15,29 @@ public class Operators002_binary_operators {
         Oef010();
     }
 
-    static void Oef001(){
+    // binary opertors perform arithmethic, relational and logical operations
+    // <<
+    // >>
+    // >>>
+    // three operators are bit shift operators
+    // they are unique
+    // they are only applicable to ineger types
+    // directly manipulates the underlying bit patterns of integers
 
+     // the right shift operators has 2 variations
+     // arithmetic shift
+     // logic shift
+
+    static void Oef001(){
+        System.out.println("1 << 1" + (1 << 1);
+        System.out.println((-1 << 1));
+        System.out.println(4 >> 1);
+        System.out.println(-4 >> 1);
+        System.out.println(1 >> 1);
+        System.out.println(-4 >>> 1);
+        System.out.println(Integer.toBinaryString(-4));
+        System.out.println(Integer.toBinaryString(-4>>1));
+        System.out.println(Integer.toBinaryString(-4>>>1));
     }
     static void Oef002(){
 

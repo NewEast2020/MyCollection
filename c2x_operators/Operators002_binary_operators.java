@@ -4,7 +4,7 @@ public class Operators002_binary_operators {
 
     public static void main(String[] args) {
 //        Oef001();
-        Oef002();
+//        Oef002();
         Oef003();
         Oef004();
         Oef005();
@@ -58,9 +58,19 @@ public class Operators002_binary_operators {
     // 11111111111111111111111111111100
     // 11111111111111111111111111111110
     // 01111111111111111111111111111110
-    static void Oef003(){
 
+    static void Oef003(){
+        System.out.println(5%3); // compute reminder of 5 divided by 3
+        System.out.println(-5%-3);
+        System.out.println(-5%3);
+        System.out.println(5%-3);
     }
+    // the sign of the result always match the sign of the numerator (teller)
+    // 2
+    // -2
+    // -2
+    // 2
+
     static void Oef004(){
 
     }

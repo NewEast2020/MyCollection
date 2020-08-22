@@ -6,7 +6,7 @@ public class Operators002_binary_operators {
 //        Oef001();
 //        Oef002();
 //        Oef003();
-        Oef004();
+//        Oef004();
         Oef005();
         Oef006();
         Oef007();
@@ -29,6 +29,8 @@ public class Operators002_binary_operators {
      // logic shift
 
     static void Oef001(){
+        // bit shift operators
+        // threat operands as bit patterns
         System.out.println("1 << 1: " + (1 << 1)); // in general << 1 : multiplication by 2
         System.out.println("-1 << 1: " + (-1 << 1));
         System.out.println("4 >> 1: " + (4 >> 1)); // in general >> 1 : division by 2
@@ -72,6 +74,8 @@ public class Operators002_binary_operators {
     // 2
 
     static void Oef004(){
+        // bitwise logical operators works on values
+        // threat operands as bit patterns
         System.out.println(1 & 2 );
         // 001 & 010 => 000
         System.out.println(1 & 3 );
@@ -87,8 +91,24 @@ public class Operators002_binary_operators {
     // 2
 
     static void Oef005(){
-
+        // logical operators also works on boolean values
+        // as boolean values are represented by a single bit
+        // 1 bit for true
+        // 0 bit for false
+        System.out.println("true  & true  : " + (true & true));
+        System.out.println("true  & false : " + (true & false));
+        System.out.println("false & false : " + (false & false));
+        System.out.println("true  | true  : " + (true | true));
+        System.out.println("true  | false : " + (true | false));
+        System.out.println("false | false : " + (false | false));
     }
+    // true  & true  : true
+    // true  & false : false
+    // false & false : false
+    // true  | true  : true
+    // true  | false : true
+    // false | false : false
+
     static void Oef006(){
 
     }

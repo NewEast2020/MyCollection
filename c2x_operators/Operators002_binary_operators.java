@@ -21,7 +21,7 @@ public class Operators002_binary_operators {
     // >>>
     // three operators are bit shift operators
     // they are unique
-    // they are only applicable to ineger types
+    // they are only applicable to integer types
     // directly manipulates the underlying bit patterns of integers
 
      // the right shift operators has 2 variations
@@ -29,12 +29,12 @@ public class Operators002_binary_operators {
      // logic shift
 
     static void Oef001(){
-        System.out.println("1 << 1: " + (1 << 1));
+        System.out.println("1 << 1: " + (1 << 1)); // in general << 1 : multiplication by 2
         System.out.println("-1 << 1: " + (-1 << 1));
-        System.out.println("4 >> 1: " + (4 >> 1));
+        System.out.println("4 >> 1: " + (4 >> 1)); // in general >> 1 : division by 2
         System.out.println("-4 >> 1: " + (-4 >> 1));
-        System.out.println("1 >> 1: " + (1 >> 1));
-        System.out.println("-4 >>> 1 :" + (-4 >>> 1));
+        System.out.println("1 >> 1: " + (1 >> 1)); // exception
+        System.out.println("-4 >>> 1 :" + (-4 >>> 1)); // exception
         System.out.println("Integer.toBinaryString(-4): " + (Integer.toBinaryString(-4)));
         System.out.println("Integer.toBinaryString(-4>>1): " + (Integer.toBinaryString(-4>>1)));
         System.out.println("Integer.toBinaryString(-4>>>1): " + (Integer.toBinaryString(-4>>>1)));

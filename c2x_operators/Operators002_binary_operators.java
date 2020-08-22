@@ -7,7 +7,7 @@ public class Operators002_binary_operators {
 //        Oef002();
 //        Oef003();
 //        Oef004();
-        Oef005();
+//        Oef005();
         Oef006();
         Oef007();
         Oef008();
@@ -91,7 +91,7 @@ public class Operators002_binary_operators {
     // 2
 
     static void Oef005(){
-        // logical operators also works on boolean values
+        // bitwise logical operators also works on boolean values
         // as boolean values are represented by a single bit
         // 1 bit for true
         // 0 bit for false
@@ -110,8 +110,16 @@ public class Operators002_binary_operators {
     // false | false : false
 
     static void Oef006(){
-
+        // relational and or operators , boolean logic on boolean values
+        // short circuit logical operators, because the operands are not always evaluated
+        System.out.println(true && true);
+        System.out.println(false && 1/0==1);
+        System.out.println(true || false || 1/0==1);
     }
+    // true
+    // false
+    // true
+
     static void Oef007(){
 
     }

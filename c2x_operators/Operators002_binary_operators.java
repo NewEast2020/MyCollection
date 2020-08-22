@@ -3,7 +3,7 @@ package c2x_operators;
 public class Operators002_binary_operators {
 
     public static void main(String[] args) {
-        Oef001();
+//        Oef001();
         Oef002();
         Oef003();
         Oef004();
@@ -51,8 +51,13 @@ public class Operators002_binary_operators {
     // Integer.toBinaryString(-4>>>1): 1111111111111111111111111111110
 
     static void Oef002(){
-
+        System.out.println(Integer.toBinaryString(-4));
+        System.out.println(Integer.toBinaryString(-4>>1));
+        System.out.println(Integer.toBinaryString(-4>>>1));
     }
+    // 11111111111111111111111111111100
+    // 11111111111111111111111111111110
+    // 01111111111111111111111111111110
     static void Oef003(){
 
     }

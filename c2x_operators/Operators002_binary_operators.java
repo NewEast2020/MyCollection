@@ -5,7 +5,7 @@ public class Operators002_binary_operators {
     public static void main(String[] args) {
 //        Oef001();
 //        Oef002();
-        Oef003();
+//        Oef003();
         Oef004();
         Oef005();
         Oef006();
@@ -72,8 +72,20 @@ public class Operators002_binary_operators {
     // 2
 
     static void Oef004(){
-
+        System.out.println(1 & 2 );
+        // 001 & 010 => 000
+        System.out.println(1 & 3 );
+        // 001 & 011 => 001
+        System.out.println(1 | 3 );
+        // 001 | 011 => 011
+        System.out.println(1 ^ 3 );
+        // 001 ^ 011 => 010
     }
+    // 0
+    // 1
+    // 3
+    // 2
+
     static void Oef005(){
 
     }

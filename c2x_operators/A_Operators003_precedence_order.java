@@ -4,8 +4,8 @@ public class A_Operators003_precedence_order {
 
     public static void main(String[] args) {
 //        Oef001();
-        Oef002();
-        Oef003();
+//        Oef002();
+//        Oef003();
         Oef004();
         Oef005();
         Oef006();
@@ -84,8 +84,14 @@ public class A_Operators003_precedence_order {
 
     }
     static void Oef004(){
-
+        System.out.println(true?1:(false?2:(true?1/0:3)));
     }
+    // output : 1
+
+    // not all subexpressions are evaluated
+    // 1/0 is not evaluated, because it is unnecesary
+
+
     static void Oef005(){
 
     }

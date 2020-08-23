@@ -16,7 +16,9 @@ public class C_Loops002_for_loops_enhanced_for_loops {
     }
 
     static void Oef001(){
-
+        for (int i=0; i<5; i=i++){
+            System.out.println("Hello world!");
+        }
     }
     static void Oef002(){
 

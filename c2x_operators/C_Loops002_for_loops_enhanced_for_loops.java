@@ -1,5 +1,9 @@
 package c2x_operators;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 public class C_Loops002_for_loops_enhanced_for_loops {
 
     public static void main(String[] args) {
@@ -21,7 +25,21 @@ public class C_Loops002_for_loops_enhanced_for_loops {
         }
     }
     static void Oef002(){
+        List<Character> list =
+                new ArrayList<>(Arrays.asList('A', 'B', 'C'));
 
+        //System.out.println(list);
+
+        for (int i=0; i<list.size(); i++){
+            System.out.println(list.get(i));
+        }
+/*
+    for(Character item : list){
+      System.out.println(item);
+      list.remove(item);
+    }
+*/
+        //System.out.println(list);
     }
     static void Oef003(){
 

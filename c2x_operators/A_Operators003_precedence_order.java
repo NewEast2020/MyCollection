@@ -3,7 +3,7 @@ package c2x_operators;
 public class A_Operators003_precedence_order {
 
     public static void main(String[] args) {
-        Oef001();
+//        Oef001();
         Oef002();
         Oef003();
         Oef004();
@@ -31,17 +31,16 @@ public class A_Operators003_precedence_order {
 // Most operators are left associative
 // Some are right associative
 /*
-1.unary          - var++ var-- ++var --var  +var -var ~var
-2.multiplicative - * / %
-3.addictive      - + -
-4.shift          - << >> >>>
-5.relational     - < > <= >= instanceof
-6.equality       - == !=
-7.bitwise logical- &  ^  |
-8.logical        - &&  ||
-9.ternary        - expression ? expression : expression
-10.assignments   - += -= *= /= %= &= ^= != <<= >>= >>>=
-
+1.unary          - var++ var-- ++var --var  +var -var ~var  Left to Right
+2.multiplicative - * / %                                    Left to Right
+3.addictive      - + -                                      Left to Right
+4.shift          - << >> >>>                                Left to Right
+5.relational     - < > <= >= instanceof                     Left to Right
+6.equality       - == !=                                    Left to Right
+7.bitwise logical- &  ^  |                                  Left to Right
+8.logical        - &&  ||                                   Left to Right
+9.ternary        - expression ? expression : expression     Right to Left
+10.assignments   - += -= *= /= %= &= ^= != <<= >>= >>>=     Right to Left
  */
 
     static void Oef001(){
@@ -60,8 +59,19 @@ public class A_Operators003_precedence_order {
     // lege output
 
     static void Oef002(){
-
+        int a, b, c=1;
+        System.out.println(a=b=c);
+        System.out.println("a = " + a);
+        System.out.println("b = " + b);
+        System.out.println("c = " + c);
     }
+    // only c is initialized
+    // (a = (b=c))
+    // 1
+    // a = 1
+    // b = 1
+    // c = 1
+
     static void Oef003(){
 
     }

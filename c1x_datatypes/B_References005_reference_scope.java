@@ -109,7 +109,7 @@ class Main4 {
 // b:c2x_datatypes.Main4@1540e19d
 // end of main()
 // geen bye !!
-public class References005_reference_scope {
+public class B_References005_reference_scope {
 
     public static void main(String[] args) {
         Oef001();

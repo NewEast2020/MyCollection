@@ -1,6 +1,6 @@
 package c1x_datatypes;
 
-public class References002_java_identifiers {
+public class B_References002_java_identifiers {
 
     public static void main(String[] args) {
         Oef001();

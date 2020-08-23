@@ -32,7 +32,14 @@ public class B_DecisionConstructs001_if_then_else_statements {
         }
     }
     static void Oef003(){
-
+        int score = 4;
+        String message;
+        if (score >= 4){
+            message = "Good job!";
+        }else if (score < 4){
+            message = "Decent job.";
+        }
+        System.out.println(message);
     }
     static void Oef004(){
 

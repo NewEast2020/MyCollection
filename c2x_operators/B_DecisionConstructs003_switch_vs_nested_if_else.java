@@ -28,7 +28,18 @@ public class B_DecisionConstructs003_switch_vs_nested_if_else {
         }
     }
     static void Oef002(){
-
+        int days = 0, month = 6;
+        switch(month){
+            case 1: case 3: case 5: case 6: case 7:
+                days = 31;
+                break;
+            case 2:
+                days = 28;
+                break;
+            default:
+                days = 30;
+        }
+        System.out.println(days);
     }
     static void Oef003(){
 

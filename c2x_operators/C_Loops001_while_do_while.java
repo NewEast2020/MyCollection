@@ -16,7 +16,11 @@ public class C_Loops001_while_do_while {
     }
 
     static void Oef001(){
-
+        int count = 0;
+        while(count < 10){
+            System.out.println("Hello world!");
+            count++;
+        }
     }
     static void Oef002(){
 

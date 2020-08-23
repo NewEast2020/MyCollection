@@ -16,7 +16,16 @@ public class B_DecisionConstructs003_switch_vs_nested_if_else {
     }
 
     static void Oef001(){
-
+        Character c = 'A';
+        switch(c) {
+            case 'A':
+                System.out.println("Excellent job!");
+            case 'B':
+                System.out.println("Good job!");
+                break;
+            default:
+                System.out.println("Decent job!");
+        }
     }
     static void Oef002(){
 

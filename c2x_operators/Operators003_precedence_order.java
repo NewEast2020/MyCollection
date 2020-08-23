@@ -18,6 +18,8 @@ public class Operators003_precedence_order {
     static void Oef001(){
 
     }
+    // lege output
+
     static void Oef002(){
 
     }

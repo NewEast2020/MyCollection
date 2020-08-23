@@ -42,7 +42,12 @@ public class C_Loops002_for_loops_enhanced_for_loops {
         //System.out.println(list);
     }
     static void Oef003(){
+        List<Character> list =
+                new ArrayList<>(Arrays.asList('A', 'B', 'C'));
 
+        for(Character item : list){
+            System.out.println(item);
+        }
     }
     static void Oef004(){
 

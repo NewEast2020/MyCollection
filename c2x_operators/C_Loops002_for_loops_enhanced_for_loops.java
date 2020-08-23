@@ -59,7 +59,15 @@ public class C_Loops002_for_loops_enhanced_for_loops {
         }
     }
     static void Oef005(){
+        List<Character> list =
+                new ArrayList<>(Arrays.asList('A', 'B', 'C'));
 
+        //System.out.println(list);
+
+        for (int i=0; i<list.size(); i++){
+            System.out.println(list.get(i));
+            list.remove(i);
+        }
     }
     static void Oef006(){
 

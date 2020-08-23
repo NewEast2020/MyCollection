@@ -16,7 +16,12 @@ public class B_DecisionConstructs001_if_then_else_statements {
     }
 
     static void Oef001(){
-
+        int score = 65;
+        if (score >= 60){
+            System.out.println("Pass");
+        }else{
+            System.out.println("Fail");
+        }
     }
     static void Oef002(){
 

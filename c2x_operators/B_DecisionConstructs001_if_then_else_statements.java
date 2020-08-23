@@ -24,7 +24,12 @@ public class B_DecisionConstructs001_if_then_else_statements {
         }
     }
     static void Oef002(){
-
+        boolean x = false;
+        if (x = false){
+            System.out.println("False");
+        }else{
+            System.out.println("True");
+        }
     }
     static void Oef003(){
 

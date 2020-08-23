@@ -1,6 +1,6 @@
 package c2x_operators;
 
-public class DecisionConstructs999_template {
+public class Loops999_template {
 
     public static void main(String[] args) {
         Oef001();

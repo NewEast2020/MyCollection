@@ -1,6 +1,6 @@
 package c2x_operators;
 
-public class Operators002_binary_operators {
+public class A_Operators002_binary_operators {
 
     public static void main(String[] args) {
 //        Oef001();

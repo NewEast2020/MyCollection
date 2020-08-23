@@ -1,6 +1,6 @@
 package c2x_operators;
 
-public class Operators003_precedence_order {
+public class A_Operators003_precedence_order {
 
     public static void main(String[] args) {
         Oef001();
@@ -14,6 +14,10 @@ public class Operators003_precedence_order {
         Oef009();
         Oef010();
     }
+
+// While multiple operators appears in the same expression
+// Java must decide the order in which to evaluate the operators
+//
 
     static void Oef001(){
 

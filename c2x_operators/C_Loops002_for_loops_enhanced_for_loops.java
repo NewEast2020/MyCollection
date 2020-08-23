@@ -1,6 +1,6 @@
 package c2x_operators;
 
-public class Loops001_while_do_while {
+public class C_Loops002_for_loops_enhanced_for_loops {
 
     public static void main(String[] args) {
         Oef001();

@@ -1,6 +1,6 @@
 package c2x_operators;
 
-public class Loops003_break_continue_optional_label {
+public class C_Loops001_while_do_while {
 
     public static void main(String[] args) {
         Oef001();

@@ -73,6 +73,14 @@ public class A_Operators003_precedence_order {
     // c = 1
 
     static void Oef003(){
+        boolean a,c,e=true;
+        a=c=e;
+        int b,d,f,g=1;
+        b=d=f=g;
+     //   a?b:c?d:e?f:g;      // expression
+     //   a?b:(c?d:(e?f:g));  // equivalent according to right associative rule
+        // the three ternary operators have the same precendence order
+        // the right ternary operator is evaluated first according to the right associative rule
 
     }
     static void Oef004(){

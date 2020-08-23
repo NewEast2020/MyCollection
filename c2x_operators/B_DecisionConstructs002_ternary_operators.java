@@ -16,7 +16,11 @@ public class B_DecisionConstructs002_ternary_operators {
     }
 
     static void Oef001(){
-
+        int score = 2;
+        String comment = score>=4?
+                "Excellent job!":
+                score>=3? "Good job!":"Good try!";
+        System.out.println(comment);
     }
     static void Oef002(){
 

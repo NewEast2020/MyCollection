@@ -17,7 +17,7 @@ public class Operators001_unary_operators {
     // specially uin the presence of other operators
     // operators can be categorized in many different ways (10 categories)
     // number of operands they can take: unary, binary, ternary operators
-    // each oprerators and operand forms an expression
+    // each operators and operand forms an expression
     // each operand can be a subexpression, consist of other operators and their operands
 
     // an expression can always be evaluated into a single value

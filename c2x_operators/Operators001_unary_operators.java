@@ -6,13 +6,6 @@ public class Operators001_unary_operators {
 //        Oef001();
 //        Oef002();
         Oef003();
-        Oef004();
-        Oef005();
-        Oef006();
-        Oef007();
-        Oef008();
-        Oef009();
-        Oef010();
     }
 
     // computing is about information processes
@@ -90,27 +83,6 @@ public class Operators001_unary_operators {
     // --a = 43
     //   a = 43
 
-    static void Oef004(){
-
-    }
-    static void Oef005(){
-
-    }
-    static void Oef006(){
-
-    }
-    static void Oef007(){
-
-    }
-    static void Oef008(){
-
-    }
-    static void Oef009(){
-
-    }
-    static void Oef010(){
-
-    }
 }
 
 

@@ -7,7 +7,7 @@ import java.math.BigDecimal;
 
 // 0x : hexadecimal prefix
 
-public class Datatypes002_literals {
+public class A_Datatypes002_literals {
     public static void main(String[] args) {
 //       Oef002();
 //       Oef004();

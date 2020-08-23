@@ -1,6 +1,6 @@
 package c2x_operators;
 
-public class DecisionConstructs001_if_then_else_statements {
+public class B_DecisionConstructs001_if_then_else_statements {
 
     public static void main(String[] args) {
         Oef001();

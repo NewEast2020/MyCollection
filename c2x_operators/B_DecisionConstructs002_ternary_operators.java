@@ -1,6 +1,6 @@
 package c2x_operators;
 
-public class DecisionConstructs002_ternary_operators {
+public class B_DecisionConstructs002_ternary_operators {
 
     public static void main(String[] args) {
         Oef001();

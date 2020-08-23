@@ -1,6 +1,6 @@
 package c2x_operators;
 
-public class DecisionConstructs003_switch_vs_nested_if_else {
+public class B_DecisionConstructs003_switch_vs_nested_if_else {
 
     public static void main(String[] args) {
         Oef001();

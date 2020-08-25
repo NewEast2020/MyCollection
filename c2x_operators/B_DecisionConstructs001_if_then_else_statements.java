@@ -4,8 +4,8 @@ public class B_DecisionConstructs001_if_then_else_statements {
 
     public static void main(String[] args) {
 //        Oef001();
-        Oef002();
-//        Oef003();
+//        Oef002();
+        Oef003();
 //        Oef004();
 //        Oef005();
 //        Oef006();
@@ -50,15 +50,22 @@ public class B_DecisionConstructs001_if_then_else_statements {
     // True
 
     static void Oef003(){
-//        int score = 4;
-//        String message;
-//        if (score >= 4){
-//            message = "Good job!";
-//        }else if (score < 4){
-//            message = "Decent job.";
-//        }
-//        System.out.println(message);
+        int score = 4;
+        String message;
+        if (score >= 4){
+            message = "Good job!";
+        }else if (score < 4){
+            message = "Decent job.";
+        }
+        System.out.println(message);
     }
+    // output
+    // compiler error : java: variable message might not have been initialized
+    // variable message is a local variable. is not inititialised
+    // because of if () {} else if() {}
+
+    // cannot be printed, reults in a compler error
+
     static void Oef004(){
 
     }

@@ -6,8 +6,8 @@ public class B_DecisionConstructs002_ternary_operators {
 //        Oef001();
 //        Oef002();
 //        Oef003();
-        Oef004();
-//        Oef005();
+//        Oef004();
+        Oef005();
 //        Oef006();
 //        Oef007();
 //        Oef008();
@@ -108,9 +108,6 @@ public class B_DecisionConstructs002_ternary_operators {
         String [] a = {"een","twee","drie"};
         String [] b = {"a","b","drie"};
 
-//        String [] a = {"een","twee","drie"};
-//        String [] b = {"a","b",null};
-
         boolean result = false;
         for (int i = 0; i < a.length; i++) {
             String e1 = a[i], e2 = b[i];
@@ -119,6 +116,9 @@ public class B_DecisionConstructs002_ternary_operators {
         }
         System.out.println("result oef05 = " + result);
     }
+    // output
+    // result oef05 = true
+
     static void Oef006(){
 
     }

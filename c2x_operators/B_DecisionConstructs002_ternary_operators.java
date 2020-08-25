@@ -4,8 +4,8 @@ public class B_DecisionConstructs002_ternary_operators {
 
     public static void main(String[] args) {
 //        Oef001();
-        Oef002();
-//        Oef003();
+//        Oef002();
+        Oef003();
 //        Oef004();
 //        Oef005();
 //        Oef006();
@@ -50,11 +50,28 @@ public class B_DecisionConstructs002_ternary_operators {
         System.out.println("result = " + result);
     }
     // output
-    // false
+    // result = false
 
     static void Oef003(){
+        String [] a = {"een","twee",null};
+        String [] b = {"a","b",null};
+
+        boolean result = false;
+        for (int i = 0; i < a.length; i++) {
+            if (a[i] == null) {
+                if (b[i] == null) {
+                    result = true;
+                }
+            }else{
+                result = a[i].equals(b[i]);
+            }
+        }
+        System.out.println("result = " + result);
 
     }
+    // output
+    // result = true
+
     static void Oef004(){
 
     }

@@ -3,8 +3,8 @@ package c2x_operators;
 public class B_DecisionConstructs001_if_then_else_statements {
 
     public static void main(String[] args) {
-        Oef001();
-//        Oef002();
+//        Oef001();
+        Oef002();
 //        Oef003();
 //        Oef004();
 //        Oef005();
@@ -44,6 +44,11 @@ public class B_DecisionConstructs001_if_then_else_statements {
             System.out.println("True");
         }
     }
+    // if condition is an assigment , not an comparison
+    // if (false) -> else block
+    // output
+    // True
+
     static void Oef003(){
 //        int score = 4;
 //        String message;

@@ -24,11 +24,11 @@ public class C_Loops001_while_do_while {
     }
     static void Oef002(){
 //int count = 0;
-        do{
-            int count = 0;
-            System.out.println("Hello World!");
-            count++;
-        }while(count < 10);
+//        do{
+//            int count = 0;
+//            System.out.println("Hello World!");
+//            count++;
+//        }while(count < 10);
     }
     static void Oef003(){
 

@@ -50,7 +50,7 @@ public class B_DecisionConstructs001_if_then_else_statements {
         }else if (score < 4){
             message = "Decent job.";
         }
-        System.out.println(message);
+//        System.out.println(message);
     }
     // output
     // compiler error : java: variable message might not have been initialized

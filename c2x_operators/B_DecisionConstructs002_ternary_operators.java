@@ -4,16 +4,20 @@ public class B_DecisionConstructs002_ternary_operators {
 
     public static void main(String[] args) {
         Oef001();
-        Oef002();
-        Oef003();
-        Oef004();
-        Oef005();
-        Oef006();
-        Oef007();
-        Oef008();
-        Oef009();
-        Oef010();
+//        Oef002();
+//        Oef003();
+//        Oef004();
+//        Oef005();
+//        Oef006();
+//        Oef007();
+//        Oef008();
+//        Oef009();
+//        Oef010();
+//
     }
+// nested if statements that use conditional assigned values to variables
+// an distinct way to express such logic is to use a conditional expression
+// with a ternary operator
 
     static void Oef001(){
         int score = 2;
@@ -22,6 +26,13 @@ public class B_DecisionConstructs002_ternary_operators {
                 score>=3? "Good job!":"Good try!";
         System.out.println(comment);
     }
+    // all the possible values must be of the same type
+    // of comment must be all values os String type
+    // otherwise the code will not compile
+
+    // output
+    // Good try!
+
     static void Oef002(){
 
     }

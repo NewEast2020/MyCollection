@@ -8,12 +8,6 @@ public class B_DecisionConstructs002_ternary_operators {
 //        Oef003();
 //        Oef004();
         Oef005();
-//        Oef006();
-//        Oef007();
-//        Oef008();
-//        Oef009();
-//        Oef010();
-//
     }
 // nested if statements that use conditional assigned values to variables
 // an distinct way to express such logic is to use a conditional expression
@@ -118,22 +112,6 @@ public class B_DecisionConstructs002_ternary_operators {
     }
     // output
     // result oef05 = true
-
-    static void Oef006(){
-
-    }
-    static void Oef007(){
-
-    }
-    static void Oef008(){
-
-    }
-    static void Oef009(){
-
-    }
-    static void Oef010(){
-
-    }
 }
 
 

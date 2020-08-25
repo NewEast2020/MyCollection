@@ -76,11 +76,20 @@ public class B_DecisionConstructs002_ternary_operators {
 //        String [] a = {"een","twee","drie"};
 //        String [] b = {"a","b","c"};
 
-//        String [] a = {"een","twee","null"};
+//        String [] a = {"een","twee",null};
 //        String [] b = {"a","b","c"};
 
+//        String [] a = {"een","twee","drie"};
+//        String [] b = {"a","b",null};
+
+//        String [] a = {"een","twee","drie"};
+//        String [] b = {"a","b","c"};
+
+//        String [] a = {"een",null,"drie"};
+//        String [] b = {"a",null,"c"};
+
         String [] a = {"een","twee","drie"};
-        String [] b = {"a","b",null};
+        String [] b = {"a","twee","c"};
 
         boolean result = false;
         for (int i = 0; i < a.length; i++) {
@@ -93,7 +102,22 @@ public class B_DecisionConstructs002_ternary_operators {
     // result oef04 = false
 
     static void Oef005(){
+//        String [] a = {"een","twee",null};
+//        String [] b = {"a","b",null};
 
+        String [] a = {"een","twee","drie"};
+        String [] b = {"a","b","drie"};
+
+//        String [] a = {"een","twee","drie"};
+//        String [] b = {"a","b",null};
+
+        boolean result = false;
+        for (int i = 0; i < a.length; i++) {
+            String e1 = a[i], e2 = b[i];
+            result = e1 == null ?
+                    e2 == null : e1.equals(e2);
+        }
+        System.out.println("result oef05 = " + result);
     }
     static void Oef006(){
 

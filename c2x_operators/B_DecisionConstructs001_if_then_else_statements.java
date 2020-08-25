@@ -4,18 +4,26 @@ public class B_DecisionConstructs001_if_then_else_statements {
 
     public static void main(String[] args) {
         Oef001();
-        Oef002();
-        Oef003();
-        Oef004();
-        Oef005();
-        Oef006();
-        Oef007();
-        Oef008();
-        Oef009();
-        Oef010();
+//        Oef002();
+//        Oef003();
+//        Oef004();
+//        Oef005();
+//        Oef006();
+//        Oef007();
+//        Oef008();
+//        Oef009();
+//        Oef010();
     }
 // decision contruct to change the flow
 // conditional execution of code blocks
+// if ()
+//   {}
+//   else {}
+
+// then block can not be ommitted
+// then block can be empty {}
+
+
 
     static void Oef001(){
         int score = 65;
@@ -25,6 +33,9 @@ public class B_DecisionConstructs001_if_then_else_statements {
             System.out.println("Fail");
         }
     }
+    // output
+    // Pass
+
     static void Oef002(){
         boolean x = false;
         if (x = false){
@@ -34,14 +45,14 @@ public class B_DecisionConstructs001_if_then_else_statements {
         }
     }
     static void Oef003(){
-        int score = 4;
-        String message;
-        if (score >= 4){
-            message = "Good job!";
-        }else if (score < 4){
-            message = "Decent job.";
-        }
-        System.out.println(message);
+//        int score = 4;
+//        String message;
+//        if (score >= 4){
+//            message = "Good job!";
+//        }else if (score < 4){
+//            message = "Decent job.";
+//        }
+//        System.out.println(message);
     }
     static void Oef004(){
 

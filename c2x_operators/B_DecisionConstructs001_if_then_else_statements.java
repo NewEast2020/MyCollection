@@ -6,13 +6,6 @@ public class B_DecisionConstructs001_if_then_else_statements {
 //        Oef001();
 //        Oef002();
         Oef003();
-//        Oef004();
-//        Oef005();
-//        Oef006();
-//        Oef007();
-//        Oef008();
-//        Oef009();
-//        Oef010();
     }
 // decision contruct to change the flow
 // conditional execution of code blocks
@@ -65,28 +58,6 @@ public class B_DecisionConstructs001_if_then_else_statements {
     // because of if () {} else if() {}
 
     // cannot be printed, reults in a compler error
-
-    static void Oef004(){
-
-    }
-    static void Oef005(){
-
-    }
-    static void Oef006(){
-
-    }
-    static void Oef007(){
-
-    }
-    static void Oef008(){
-
-    }
-    static void Oef009(){
-
-    }
-    static void Oef010(){
-
-    }
 }
 
 

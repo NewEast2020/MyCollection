@@ -1,6 +1,6 @@
-package c3x;
+package c3x_methods;
 
-public class cx999_template {
+public class B_Inheritance002_inheritance_and_polymorphism {
 
     public static void main(String[] args) {
         Oef001();

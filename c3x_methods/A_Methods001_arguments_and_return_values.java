@@ -30,9 +30,25 @@ public class A_Methods001_arguments_and_return_values {
         System.out.println();
     }
     static void Oef002() {
+        A_Methods001_arguments_and_return_values m = new A_Methods001_arguments_and_return_values();
+        m.method1();
+        m.method2();
+        m.method3();
+        m.method4();
+    }
+    public void method1(){}
 
+    public void method2(){
+        return;
     }
 
+    public Float method3(){
+        return 12.3;
+    }
+
+    public Float method4(){
+        return 12.3f;
+    }
     static void Oef003() {
 
     }

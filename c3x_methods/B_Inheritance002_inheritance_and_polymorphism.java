@@ -41,20 +41,26 @@ public class B_Inheritance002_inheritance_and_polymorphism {
     }
 
     static void Oef003() {
-        new B_Inheritance002_inheritance_and_polymorphism().print();
-        new B_Inheritance002_inheritance_and_polymorphism_oef3().print();
+        new B_Inheritance002_inheritance_and_polymorphism().print_oef3();
+        new B_Inheritance002_inheritance_and_polymorphism_oef3().print_oef3();
     }
     private String message_oef3(){
         return "Hello!";
     }
-    void print(){
+    void print_oef3(){
         System.out.println(message_oef3());
     }
 
     static void Oef004() {
-
+        new B_Inheritance002_inheritance_and_polymorphism().print_oef4();
+        new B_Inheritance002_inheritance_and_polymorphism_oef4().print_oef4();
     }
-
+    protected String message_oef4(){
+        return "Hello";
+    }
+    void print_oef4(){
+        System.out.println(message_oef4());
+    }
     static void Oef005() {
 
     }
@@ -92,6 +98,11 @@ class B_Inheritance002_inheritance_and_polymorphism_oef2 extends B_Inheritance00
 }
 class B_Inheritance002_inheritance_and_polymorphism_oef3 extends B_Inheritance002_inheritance_and_polymorphism {
     private String message(){
+        return "World!";
+    }
+}
+class B_Inheritance002_inheritance_and_polymorphism_oef4 extends B_Inheritance002_inheritance_and_polymorphism {
+    protected String message(){
         return "World!";
     }
 }

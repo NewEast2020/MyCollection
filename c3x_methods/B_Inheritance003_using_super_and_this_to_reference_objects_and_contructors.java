@@ -63,6 +63,7 @@ class Example_oef1 {
         this.message = message;
     }
 }
+
 class Main_oef1 extends Example_oef1{
     public Main_oef1(){
         super("Hello");
@@ -71,5 +72,31 @@ class Main_oef1 extends Example_oef1{
 
     public static void main(String[] args) {
         System.out.println(new Main_oef1().message);
+    }
+}
+
+class Example_oef2 {
+    private String message;
+
+    public Example_oef2(String message){
+        this.message = message;
+    }
+
+    public String toString(){
+        return message;
+    }
+}
+
+class Main_oef2 extends Example_oef2{
+    public static void main(String[] args) {
+        System.out.println(new Main_oef2("Hello"));
+    }
+
+    public Main_oef2(String message){
+        super(message);
+    }
+
+    public String toString(){
+        return super.toString()+"!";
     }
 }

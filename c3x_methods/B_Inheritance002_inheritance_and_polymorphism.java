@@ -4,6 +4,8 @@ public class B_Inheritance002_inheritance_and_polymorphism {
 
     public static void main(String[] args) {
         Oef001();
+
+
         Oef002();
         Oef003();
         Oef004();
@@ -16,8 +18,16 @@ public class B_Inheritance002_inheritance_and_polymorphism {
     }
 
     static void Oef001() {
-
+        B_Inheritance002_inheritance_and_polymorphism m = new B_Inheritance002_inheritance_and_polymorphism();
+        B_Inheritance002_inheritance_and_polymorphism m2 = new B_Inheritance002_inheritance_and_polymorphism2();
+        System.out.println(m.message());
+        System.out.println(m2.message());
     }
+
+    Object message(){
+        return "Hello!";
+    }
+
 
     static void Oef002() {
 
@@ -56,4 +66,8 @@ public class B_Inheritance002_inheritance_and_polymorphism {
     }
 }
 
-
+class B_Inheritance002_inheritance_and_polymorphism2 extends B_Inheritance002_inheritance_and_polymorphism {
+    String message(){
+        return "World!";
+    }
+}

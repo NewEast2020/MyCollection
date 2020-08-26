@@ -26,9 +26,14 @@ public class A_Methods003_static_methods_and_fields {
         System.out.println("Hello World!");
     }
 
-    static void Oef002() {
+    static String message;
+    //static final String message2; // temp comment
 
+    static void Oef002() {
+        System.out.println(message);
+//        System.out.println(message2); // temp comment
     }
+
 
     static void Oef003() {
 

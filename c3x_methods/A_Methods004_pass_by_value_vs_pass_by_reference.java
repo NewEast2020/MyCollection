@@ -16,7 +16,20 @@ public class A_Methods004_pass_by_value_vs_pass_by_reference {
     }
 
     static void Oef001() {
+        String greetings = "Hello";
+        update(greetings);
+        System.out.println(greetings);
 
+        StringBuilder greetings1 = new StringBuilder("Hello");
+        update1(greetings1);
+        System.out.println(greetings1);
+    }
+    static void update(String greetings){
+        greetings = "Hello world!";
+    }
+
+    static void update1(StringBuilder greetings){
+        greetings.append(" world!");
     }
 
     static void Oef002() {

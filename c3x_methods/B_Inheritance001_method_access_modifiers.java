@@ -1,5 +1,8 @@
 package c3x_methods;
 
+import c3x_methods.package1.ClassA;
+import c3x_methods.package2.ClassB;
+
 public class B_Inheritance001_method_access_modifiers {
 
     public static void main(String[] args) {
@@ -15,8 +18,16 @@ public class B_Inheritance001_method_access_modifiers {
         Oef010();
     }
 
-    static void Oef001() {
 
+    static void Oef001() {
+        new B_Inheritance001_method_access_modifiers().print();
+        new ClassA().print();
+        new ClassB().print();
+    }
+    private String message = "hello";
+
+    private void print(){
+        System.out.println(message);
     }
 
     static void Oef002() {

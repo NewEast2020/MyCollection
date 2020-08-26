@@ -20,7 +20,7 @@ public class A_Methods001_arguments_and_return_values {
         print("test 1", 1, 2, 3, 4);
         print("test 2", new int[]{1, 2, 3, 4});
         print("test 3", args);
-        print("test 4", {1, 2, 3, 4});
+        //print("test 4", {1, 2, 3, 4}); // temp comment
     }
     static void print(String label, int... data){
         System.out.print(label+":");
@@ -43,7 +43,8 @@ public class A_Methods001_arguments_and_return_values {
     }
 
     public Float method3(){
-        return 12.3;
+        //return 12.3; // temp comment
+        return 12.3f; // temp inserted
     }
 
     public Float method4(){

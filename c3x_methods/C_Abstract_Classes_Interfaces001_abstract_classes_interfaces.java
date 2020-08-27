@@ -72,3 +72,15 @@ class Main_oefc1 extends Example_oefc1{
         return "World!";
     }
 }
+
+interface MainInterface_oefc2 {
+    default String message(){
+        return "Hello!";
+    }
+}
+
+class Main_oefc2 implements MainInterface_oefc2{
+    public static void main(String[] args) {
+        System.out.println(new Main_oefc2().message());
+    }
+}

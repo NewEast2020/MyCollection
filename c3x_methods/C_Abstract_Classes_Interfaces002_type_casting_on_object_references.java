@@ -1,5 +1,7 @@
 package c3x_methods;
 
+import java.util.ArrayList;
+
 public class C_Abstract_Classes_Interfaces002_type_casting_on_object_references {
 
     public static void main(String[] args) {
@@ -74,5 +76,16 @@ class Main_oefc21 extends Example_oefc21{
         e = m;
         // m = e; // temp comment
         m.print();
+    }
+}
+
+
+class Main_oefc22 {
+    public static void main(String[] args) {
+        final ArrayList<String> array = new ArrayList<>();
+        array.add("Hello");
+        array.add("World");
+        array.add("!");
+        System.out.println(array);
     }
 }

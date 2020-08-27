@@ -14,10 +14,9 @@ public class B_DecisionConstructs003_switch_vs_nested_if_else {
 // enums
 // String values
 
-
-    static void Oef001(){
+    static void Oef001() {
         Character c = 'A';
-        switch(c) { // switch on a character object
+        switch (c) { // switch on a character object
             case 'A': // literal values are primitive char values
                 System.out.println("Excellent job!");
                 // no break statement
@@ -36,10 +35,14 @@ public class B_DecisionConstructs003_switch_vs_nested_if_else {
 // Excellent job!
 // Good job!
 
-    static void Oef002(){
+    static void Oef002() {
         int days = 0, month = 6;
-        switch(month){
-            case 1: case 3: case 5: case 6: case 7:
+        switch (month) {
+            case 1:
+            case 3:
+            case 5:
+            case 6:
+            case 7:
                 days = 31;
                 break;
             case 2:
@@ -53,5 +56,3 @@ public class B_DecisionConstructs003_switch_vs_nested_if_else {
     // output
     // days = 31
 }
-
-

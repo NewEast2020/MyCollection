@@ -1,6 +1,6 @@
 package c3x_methods;
 
-public class Methods999_template {
+public class Abstract_Classes_Interfaces999_template {
 
     public static void main(String[] args) {
         Oef001();

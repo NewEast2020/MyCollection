@@ -97,3 +97,17 @@ class Main_oefc3 implements MainInterface_oefc3{
         // Main_oefc3.print(); // temp commented
     }
 }
+interface MainInterface_oefc4 {
+    abstract void print();
+}
+
+class Main_oefc4 implements MainInterface_oefc4{
+    public static void main(String[] args) {
+        new Main_oefc4().print();
+    }
+
+    public // temp extra line
+    void print() {
+        System.out.println("Hello!");
+    }
+}

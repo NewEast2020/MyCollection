@@ -3,8 +3,8 @@ package c2x_operators;
 public class B_DecisionConstructs003_switch_vs_nested_if_else {
 
     public static void main(String[] args) {
-        Oef001();
-//        Oef002();
+//        Oef001();
+        Oef002();
 //        Oef003();
 //        Oef004();
 //        Oef005();
@@ -56,8 +56,11 @@ public class B_DecisionConstructs003_switch_vs_nested_if_else {
             default:
                 days = 30;
         }
-        System.out.println(days);
+        System.out.println("days = " + days);
     }
+    // output
+    // days = 31
+
     static void Oef003(){
 
     }

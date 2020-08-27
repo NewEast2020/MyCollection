@@ -56,4 +56,23 @@ public class C_Abstract_Classes_Interfaces002_type_casting_on_object_references 
     }
 }
 
+class Example_oefc21 {
+    public void print(){
+        System.out.println("Hello");
+    }
+}
 
+class Main_oefc21 extends Example_oefc21{
+    public void print(){
+        System.out.println("World");
+    }
+
+    public static void main(String[] args) {
+        Main_oefc21 m = new Main_oefc21();
+        Example_oefc21 e;
+
+        e = m;
+        // m = e; // temp comment
+        m.print();
+    }
+}

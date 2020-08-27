@@ -84,3 +84,16 @@ class Main_oefc2 implements MainInterface_oefc2{
         System.out.println(new Main_oefc2().message());
     }
 }
+
+interface MainInterface_oefc3 {
+    static void print(){
+        System.out.println("Hello!");
+    }
+}
+
+class Main_oefc3 implements MainInterface_oefc3{
+    public static void main(String[] args) {
+        MainInterface_oefc3.print();
+        // Main_oefc3.print(); // temp commented
+    }
+}

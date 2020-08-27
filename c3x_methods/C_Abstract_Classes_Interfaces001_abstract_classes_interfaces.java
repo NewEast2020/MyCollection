@@ -56,4 +56,19 @@ public class C_Abstract_Classes_Interfaces001_abstract_classes_interfaces {
     }
 }
 
+abstract class Example_oefc1 {
+   // abstract String message_oefc1(){ // comment temp comment
+        String message_oefc1(){ // comment temp new
+        return "Hello!";
+    }
+}
 
+class Main_oefc1 extends Example_oefc1{
+    public static void main(String[] args) {
+        System.out.println(new Main_oefc1().message_oefc1());
+    }
+
+    String message_oefc1(){
+        return "World!";
+    }
+}

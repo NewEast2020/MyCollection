@@ -5,14 +5,6 @@ public class B_DecisionConstructs003_switch_vs_nested_if_else {
     public static void main(String[] args) {
 //        Oef001();
         Oef002();
-//        Oef003();
-//        Oef004();
-//        Oef005();
-//        Oef006();
-//        Oef007();
-//        Oef008();
-//        Oef009();
-//        Oef010();
     }
 // allow us you compare a variable with a list of literal values
 // and execute code blocks selectively
@@ -60,31 +52,6 @@ public class B_DecisionConstructs003_switch_vs_nested_if_else {
     }
     // output
     // days = 31
-
-    static void Oef003(){
-
-    }
-    static void Oef004(){
-
-    }
-    static void Oef005(){
-
-    }
-    static void Oef006(){
-
-    }
-    static void Oef007(){
-
-    }
-    static void Oef008(){
-
-    }
-    static void Oef009(){
-
-    }
-    static void Oef010(){
-
-    }
 }
 
 

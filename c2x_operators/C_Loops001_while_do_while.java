@@ -8,11 +8,6 @@ public class C_Loops001_while_do_while {
 //        Oef003();
 //        Oef004();
         Oef005();
-//        Oef006();
-//        Oef007();
-//        Oef008();
-//        Oef009();
-//        Oef010();
     }
     // loop are another type of decision construct
 
@@ -120,19 +115,6 @@ public class C_Loops001_while_do_while {
 //  8 (5) Hello World!
 //  9 (5) Hello World!
 //  10 (5) Hello World!
-
-
-    static void Oef008() {
-
-    }
-
-    static void Oef009() {
-
-    }
-
-    static void Oef010() {
-
-    }
 }
 
 

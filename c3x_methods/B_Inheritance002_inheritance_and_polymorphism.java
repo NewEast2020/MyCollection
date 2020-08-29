@@ -4,8 +4,6 @@ public class B_Inheritance002_inheritance_and_polymorphism {
 
     public static void main(String[] args) {
         Oef001();
-
-
         Oef002();
         Oef003();
         Oef004();

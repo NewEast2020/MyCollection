@@ -4,8 +4,8 @@ public class C_Loops001_while_do_while {
 
     public static void main(String[] args) {
 //        Oef001();
-        Oef002();
-//        Oef003();
+//        Oef002();
+        Oef003();
 //        Oef004();
 //        Oef005();
 //        Oef006();
@@ -17,10 +17,10 @@ public class C_Loops001_while_do_while {
     // loop are another type of decision construct
 
     // simple while loop
-    static void Oef001(){
+    static void Oef001() {
         int count = 0;
-        while(count < 10){
-            System.out.println(count+1 + " " + "Hello world!");
+        while (count < 10) {
+            System.out.println(count + 1 + " " + "Hello world!");
             count++;
         }
     }
@@ -49,47 +49,70 @@ public class C_Loops001_while_do_while {
     // do-while loop executes loop body at least once
     // because loop condition is checked after each iteration
 
-    static void Oef002(){
+    // move count definition inside the body, what will happen ?
+    static void Oef002() {
 /*
         do{
             int count = 0; // temp comment else compile error
                            // move count variable outside of the loop
             System.out.println(count+1 + " (2) " + "Hello World!");
         } while(count++ < 10);
-
-    }
 */
-// var count is out of scope
-
-    static void Oef003(){
-
     }
-    static void Oef004(){
+
+    // move count out of the loop, what will happen ?
+    static void Oef003() {
+        int count = 0;  // count variable outside of the loop
+        do {
+            System.out.println(count + 1 + " (3) " + "Hello World!");
+        } while (count++ < 10);
+    }
+    // Hello world is printed 11 times
+    // postincrement
+    // output
+    // 1 (3) Hello World!
+    // 2 (3) Hello World!
+    // 3 (3) Hello World!
+    // 4 (3) Hello World!
+    // 5 (3) Hello World!
+    // 6 (3) Hello World!
+    // 7 (3) Hello World!
+    // 8 (3) Hello World!
+    // 9 (3) Hello World!
+    // 10 (3) Hello World!
+    // 11 (3) Hello World!
+
+    static void Oef004() {
         int count = 0; // temp create variable else compile error
-        do{
+        do {
             // int count = 0; // temp comment else compile error
             // move count variable outside of the loop
-            System.out.println(count+1 + " (2) " + "Hello World!");
+            System.out.println(count + 1 + " (2) " + "Hello World!");
             count++;
-        } while(count < 10);
+        } while (count < 10);
+    }
+
+    static void Oef005() {
 
     }
-    static void Oef005(){
+
+    static void Oef006() {
 
     }
-    static void Oef006(){
+
+    static void Oef007() {
 
     }
-    static void Oef007(){
+
+    static void Oef008() {
 
     }
-    static void Oef008(){
+
+    static void Oef009() {
 
     }
-    static void Oef009(){
 
-    }
-    static void Oef010(){
+    static void Oef010() {
 
     }
 }

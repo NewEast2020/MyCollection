@@ -6,8 +6,8 @@ public class C_Loops001_while_do_while {
 //        Oef001();
 //        Oef002();
 //        Oef003();
-        Oef004();
-//        Oef005();
+//        Oef004();
+        Oef005();
 //        Oef006();
 //        Oef007();
 //        Oef008();
@@ -103,22 +103,24 @@ public class C_Loops001_while_do_while {
     // 10 (4) Hello World!
 
     static void Oef005() {
-        int count = 0; // temp create variable else compile error
+        int count = 0;
         do {
-            // int count = 0; // temp comment else compile error
-            // move count variable outside of the loop
-            System.out.println(count + 1 + " (2) " + "Hello World!");
+            System.out.println(count + 1 + " (5) " + "Hello World!");
             count++;
         } while (count < 10);
     }
+// output ok
+//  1 (5) Hello World!
+//  2 (5) Hello World!
+//  3 (5) Hello World!
+//  4 (5) Hello World!
+//  5 (5) Hello World!
+//  6 (5) Hello World!
+//  7 (5) Hello World!
+//  8 (5) Hello World!
+//  9 (5) Hello World!
+//  10 (5) Hello World!
 
-    static void Oef006() {
-
-    }
-
-    static void Oef007() {
-
-    }
 
     static void Oef008() {
 

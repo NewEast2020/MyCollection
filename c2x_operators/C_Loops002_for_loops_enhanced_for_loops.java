@@ -15,8 +15,6 @@ public class C_Loops002_for_loops_enhanced_for_loops {
 //        Oef006();
 //        Oef007();
         Oef008();
-//        Oef009();
-//        Oef010();
     }
 // another loop type is the for loop
 // the for loop is controlled by condition
@@ -178,25 +176,6 @@ public class C_Loops002_for_loops_enhanced_for_loops {
 // list.get(1) : C
 // (8b) list = [B]
 
-    static void Oef006x() {
-
-    }
-
-    static void Oef007x() {
-
-    }
-
-    static void Oef008x() {
-
-    }
-
-    static void Oef009x() {
-
-    }
-
-    static void Oef010x() {
-
-    }
 }
 
 

@@ -10,8 +10,8 @@ public class C_Loops002_for_loops_enhanced_for_loops {
 //        Oef001();
 //        Oef002();
 //        Oef003();
-        Oef004();
-//        Oef005();
+//        Oef004();
+        Oef005();
 //        Oef006();
 //        Oef007();
 //        Oef008();
@@ -80,14 +80,18 @@ public class C_Loops002_for_loops_enhanced_for_loops {
 // output
 // (4) i = 1
 
-    static void Oef003xx() {
-        List<Character> list =
-                new ArrayList<>(Arrays.asList('A', 'B', 'C'));
+    // collection of things for example an array or an arraylist
+    static void Oef005() {
+        List<Character> list = new ArrayList<>(Arrays.asList('A', 'B', 'C'));
 
-        //System.out.println(list);
+        System.out.println("(5) list: " + list);
 
+        // for loop is used to iterate over the list
+        // using the indices of the elements
+        // each of the element of the arraylist is printed
+        // in the order in which they appear in the araylist
         for (int i = 0; i < list.size(); i++) {
-            System.out.println(list.get(i));
+            System.out.println("list.get(" + i +  ") : " +  list.get(i));
         }
 /*
     for(Character item : list){

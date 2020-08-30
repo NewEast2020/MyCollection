@@ -89,7 +89,7 @@ public class C_Loops002_for_loops_enhanced_for_loops {
         // each of the element of the arraylist is printed
         // in the order in which they appear in the araylist
         for (int i = 0; i < list.size(); i++) {
-            System.out.println("list.get(" + i +  ") : " +  list.get(i));
+            System.out.println("list.get(" + i + ") : " + list.get(i));
         }
 /*
     for(Character item : list){
@@ -158,7 +158,7 @@ public class C_Loops002_for_loops_enhanced_for_loops {
         // in for loops structural changes are allowed
         // loopbody causes structural changes in the list
         for (int i = 0; i < list.size(); i++) {
-            System.out.println("list.get(" + i + ") : "  + list.get(i));
+            System.out.println("list.get(" + i + ") : " + list.get(i));
             list.remove(i);
             System.out.println("(8b) list = " + list);
 

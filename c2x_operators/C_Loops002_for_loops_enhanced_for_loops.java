@@ -8,9 +8,8 @@ public class C_Loops002_for_loops_enhanced_for_loops {
 
     public static void main(String[] args) {
 //        Oef001();
-        Oef001b();
 //        Oef002();
-//        Oef003();
+        Oef003();
 //        Oef004();
 //        Oef005();
 //        Oef006();
@@ -31,9 +30,9 @@ public class C_Loops002_for_loops_enhanced_for_loops {
 // the update is performed after each iteration
 
     // simple for loop
-    static void Oef001(){
-        for (int i = 0; i < 5; i = i++){
-            System.out.println( (i+1) + " (1) " + "Hello world!");
+    static void Oef001() {
+        for (int i = 0; i < 5; i = i++) {
+            System.out.println((i + 1) + " (1) " + "Hello world!");
         }
     }
 // output
@@ -53,25 +52,33 @@ public class C_Loops002_for_loops_enhanced_for_loops {
 // 1 (1) Hello world!
 // never ends....
 
-    static void Oef001b(){
-        for (int i = 0; i < 5; i = ++i){
-            System.out.println( (i+1) + " (1b) " + "Hello world!");
+    static void Oef002() {
+        for (int i = 0; i < 5; i = ++i) {
+            System.out.println((i + 1) + " (2) " + "Hello world!");
         }
     }
 // output
-// 1 (1b) Hello world!
-// 2 (1b) Hello world!
-// 3 (1b) Hello world!
-// 4 (1b) Hello world!
-// 5 (1b) Hello world!
+// 1 (2) Hello world!
+// 2 (2) Hello world!
+// 3 (2) Hello world!
+// 4 (2) Hello world!
+// 5 (2) Hello world!
 
-    static void Oef002(){
+    static void Oef003() {
+        int i = 0;
+        i = i++;
+        System.out.println("(3) i = " + i);
+    }
+// output
+// (3) i = 0
+
+    static void Oef003xx() {
         List<Character> list =
                 new ArrayList<>(Arrays.asList('A', 'B', 'C'));
 
         //System.out.println(list);
 
-        for (int i=0; i<list.size(); i++){
+        for (int i = 0; i < list.size(); i++) {
             System.out.println(list.get(i));
         }
 /*
@@ -82,47 +89,55 @@ public class C_Loops002_for_loops_enhanced_for_loops {
 */
         //System.out.println(list);
     }
-    static void Oef003(){
+
+    static void Oef003x() {
         List<Character> list =
                 new ArrayList<>(Arrays.asList('A', 'B', 'C'));
 
-        for(Character item : list){
+        for (Character item : list) {
             System.out.println(item);
         }
     }
-    static void Oef004(){
+
+    static void Oef004x() {
         List<Character> list =
                 new ArrayList<>(Arrays.asList('A', 'B', 'C'));
 
-        for(Character item : list){
+        for (Character item : list) {
             System.out.println(item);
             list.remove(item);
         }
     }
-    static void Oef005(){
+
+    static void Oef005x() {
         List<Character> list =
                 new ArrayList<>(Arrays.asList('A', 'B', 'C'));
 
         //System.out.println(list);
 
-        for (int i=0; i<list.size(); i++){
+        for (int i = 0; i < list.size(); i++) {
             System.out.println(list.get(i));
             list.remove(i);
         }
     }
-    static void Oef006(){
+
+    static void Oef006x() {
 
     }
-    static void Oef007(){
+
+    static void Oef007x() {
 
     }
-    static void Oef008(){
+
+    static void Oef008x() {
 
     }
-    static void Oef009(){
+
+    static void Oef009x() {
 
     }
-    static void Oef010(){
+
+    static void Oef010x() {
 
     }
 }

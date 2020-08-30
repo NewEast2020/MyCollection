@@ -12,8 +12,8 @@ public class C_Loops002_for_loops_enhanced_for_loops {
 //        Oef003();
 //        Oef004();
 //        Oef005();
-        Oef006();
-//        Oef007();
+//        Oef006();
+        Oef007();
 //        Oef008();
 //        Oef009();
 //        Oef010();
@@ -124,15 +124,33 @@ public class C_Loops002_for_loops_enhanced_for_loops {
         }
     }
 
-    static void Oef004x() {
-        List<Character> list =
-                new ArrayList<>(Arrays.asList('A', 'B', 'C'));
+    static void Oef007() {
+        List<Character> list = new ArrayList<>(Arrays.asList('A', 'B', 'C'));
 
+        System.out.println("(7) list = " + list);
+
+        // for loops
+        // enhanced for loops
+        // can be used interchangeably mostly, not always equivalent
+        // traverse the list and remove each element right after the element is visited
         for (Character item : list) {
             System.out.println(item);
             list.remove(item);
         }
     }
+    // code compile ok
+    // code will throw an exception
+    // the enhanced for loop does not allow code in the loop body to make any structural changes
+    // to the underlying structure
+
+    // output
+    // (7) list = [A, B, C]
+    // A
+    // Exception in thread "main" java.util.ConcurrentModificationException
+    //	at java.util.ArrayList$Itr.checkForComodification(ArrayList.java:901)
+    //	at java.util.ArrayList$Itr.next(ArrayList.java:851)
+    //	at c2x_operators.C_Loops002_for_loops_enhanced_for_loops.Oef007(C_Loops002_for_loops_enhanced_for_loops.java:131)
+    //	at c2x_operators.C_Loops002_for_loops_enhanced_for_loops.main(C_Loops002_for_loops_enhanced_for_loops.java:16)
 
     static void Oef005x() {
         List<Character> list =

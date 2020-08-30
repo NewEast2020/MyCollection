@@ -9,8 +9,8 @@ public class C_Loops002_for_loops_enhanced_for_loops {
     public static void main(String[] args) {
 //        Oef001();
 //        Oef002();
-        Oef003();
-//        Oef004();
+//        Oef003();
+        Oef004();
 //        Oef005();
 //        Oef006();
 //        Oef007();
@@ -71,6 +71,14 @@ public class C_Loops002_for_loops_enhanced_for_loops {
     }
 // output
 // (3) i = 0
+
+    static void Oef004() {
+        int i = 0;
+        i = ++i;
+        System.out.println("(4) i = " + i);
+    }
+// output
+// (4) i = 1
 
     static void Oef003xx() {
         List<Character> list =

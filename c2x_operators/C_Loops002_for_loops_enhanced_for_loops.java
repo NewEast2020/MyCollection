@@ -13,8 +13,8 @@ public class C_Loops002_for_loops_enhanced_for_loops {
 //        Oef004();
 //        Oef005();
 //        Oef006();
-        Oef007();
-//        Oef008();
+//        Oef007();
+        Oef008();
 //        Oef009();
 //        Oef010();
     }
@@ -152,17 +152,31 @@ public class C_Loops002_for_loops_enhanced_for_loops {
     //	at c2x_operators.C_Loops002_for_loops_enhanced_for_loops.Oef007(C_Loops002_for_loops_enhanced_for_loops.java:131)
     //	at c2x_operators.C_Loops002_for_loops_enhanced_for_loops.main(C_Loops002_for_loops_enhanced_for_loops.java:16)
 
-    static void Oef005x() {
-        List<Character> list =
-                new ArrayList<>(Arrays.asList('A', 'B', 'C'));
+    static void Oef008() {
+        List<Character> list = new ArrayList<>(Arrays.asList('A', 'B', 'C'));
 
-        //System.out.println(list);
+        System.out.println("(8a) list = " + list);
 
+        // in for loops structural changes are allowed
+        // loopbody causes structural changes in the list
         for (int i = 0; i < list.size(); i++) {
-            System.out.println(list.get(i));
+            System.out.println("list.get(" + i + ") : "  + list.get(i));
             list.remove(i);
+            System.out.println("(8b) list = " + list);
+
         }
     }
+// output
+// (8) list = [A, B, C]
+// A
+// C
+
+// output2
+// (8a) list = [A, B, C]
+// list.get(0) : A
+// (8b) list = [B, C]
+// list.get(1) : C
+// (8b) list = [B]
 
     static void Oef006x() {
 

@@ -7,7 +7,8 @@ import java.util.List;
 public class C_Loops002_for_loops_enhanced_for_loops {
 
     public static void main(String[] args) {
-        Oef001();
+//        Oef001();
+        Oef001b();
 //        Oef002();
 //        Oef003();
 //        Oef004();
@@ -25,7 +26,7 @@ public class C_Loops002_for_loops_enhanced_for_loops {
 // the initialisation of the loop variable
 // the loop condition
 // and the variable update
-// the variable initilisation happens once at the beginning of the loop
+// the variable initialisation happens once at the beginning of the loop
 // the loop condition is checked before each iteration of the loop
 // the update is performed after each iteration
 
@@ -51,6 +52,18 @@ public class C_Loops002_for_loops_enhanced_for_loops {
 // 1 (1) Hello world!
 // 1 (1) Hello world!
 // never ends....
+
+    static void Oef001b(){
+        for (int i = 0; i < 5; i = ++i){
+            System.out.println( (i+1) + " (1b) " + "Hello world!");
+        }
+    }
+// output
+// 1 (1b) Hello world!
+// 2 (1b) Hello world!
+// 3 (1b) Hello world!
+// 4 (1b) Hello world!
+// 5 (1b) Hello world!
 
     static void Oef002(){
         List<Character> list =

@@ -11,8 +11,8 @@ public class C_Loops002_for_loops_enhanced_for_loops {
 //        Oef002();
 //        Oef003();
 //        Oef004();
-        Oef005();
-//        Oef006();
+//        Oef005();
+        Oef006();
 //        Oef007();
 //        Oef008();
 //        Oef009();
@@ -102,9 +102,22 @@ public class C_Loops002_for_loops_enhanced_for_loops {
         //System.out.println(list);
     }
 
-    static void Oef003x() {
-        List<Character> list =
-                new ArrayList<>(Arrays.asList('A', 'B', 'C'));
+    static void Oef006() {
+        List<Character> list = new ArrayList<>(Arrays.asList('A', 'B', 'C'));
+
+        System.out.println("(6) list = " + list);
+        // enhanced for loop offers a simpler way to step to all elements in a collection with
+        // no use of a loop variable
+        // no initialise of the variable
+        // no update of the variable
+        // no out of bound errors
+        // no of by one error
+
+        // output
+        // (6) list = [A, B, C]
+        // A
+        // B
+        // C
 
         for (Character item : list) {
             System.out.println(item);

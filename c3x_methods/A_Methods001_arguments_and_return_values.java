@@ -83,4 +83,40 @@ public class A_Methods001_arguments_and_return_values {
     }
 }
 
+// Methods and Inheritance are 2 key concepts in
+// object oriented designing java
+// method overriding and inheritance and polymorphism
+// method is a procedure or function,
+// method is a  reusable block of code
+// method can be called from other parts of the program
+// method in java always associated with an object
+
+class Main_oef001 {
+    // method print
+    //  2 parameters : String and int array
+    // return  no value
+    static void print(String label, int... data){
+        System.out.print(label+": ");
+        for(int item: data){
+            System.out.print(item + " ");
+        }
+        System.out.println();
+    }
+
+    public static void main(String[] args1) {
+        int[] args = {1, 2, 3, 4};
+        String label = "test 1";
+
+        print(label, args);
+        print("test 2", 1, 2, 3, 4, 5);
+        print("test 3", new int[]{1, 2, 3, 4, 5 ,6});
+        // print("test 4", {1, 2, 3, 4}); // temp comment
+                   // compile error
+                   // java: illegal start of expression
+    }
+    // output
+    //    test 1: 1 2 3 4
+    //    test 2: 1 2 3 4 5
+    //    test 3: 1 2 3 4 5 6
+}
 

@@ -3,7 +3,6 @@ package c3x_methods;
 public class A_Methods001_arguments_and_return_values {
 
     public static void main(String[] args) {
-        Oef001();
         Oef002();
         Oef003();
         Oef004();
@@ -15,20 +14,6 @@ public class A_Methods001_arguments_and_return_values {
         Oef010();
     }
 
-    static void Oef001() {
-        int[] args = {1, 2, 3, 4};
-        print("test 1", 1, 2, 3, 4);
-        print("test 2", new int[]{1, 2, 3, 4});
-        print("test 3", args);
-        //print("test 4", {1, 2, 3, 4}); // temp comment
-    }
-    static void print(String label, int... data){
-        System.out.print(label+":");
-        for(int item: data){
-            System.out.print(item);
-        }
-        System.out.println();
-    }
     static void Oef002() {
         A_Methods001_arguments_and_return_values m = new A_Methods001_arguments_and_return_values();
         m.method1();

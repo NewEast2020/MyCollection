@@ -73,4 +73,38 @@ public class A_Methods002_method_overloading {
     }
 }
 
+// methods names can be reused in the same class
+// this is called method overloading
+// because of the common name all methods must have different signatures
+// for them to be distinguisable
+// different numbers of arguments
+// different argument types
+// Argument in different orders,
+// or all three
+// resolving overloading methods calls
+// Java attemps to find the most specific match
+
+class Main_oef201 {
+    public static void main(String[] args) {
+        print_oef201(42); // input parameter is an int
+        // java can perform a one time conversion to find the most specific match
+        // promote the int 42 in an long int
+        // box the long int into an integer object
+
+        print_oef201(42L); // conversion to an int to an long integer object
+    }                           // once converted to a Long integer object
+                                // the method call can match either definition
+
+
+    static void print_oef201(Long num){
+        System.out.println("Long num: " + num);
+    }
+
+    static void print_oef201(Object obj){
+        System.out.println("object: "+obj);
+    }
+    // output:
+    // object: 42
+    // Long num: 42
+}
 

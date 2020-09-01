@@ -104,4 +104,42 @@ class Main_oef001 {
     //    test 2: 1 2 3 4 5
     //    test 3: 1 2 3 4 5 6
 }
+// important rule about method arguments
+// methods take arguments or parameters from the caller as input
+// the parameter type passed into a method must be assignable to
+// the parameter types in the method declaration
+// methods can take a variable number of arguments
+// = at most one variable length arguments
+// = must be defined as the last one in parameter list
 
+class Main_oef002 {
+    // 4 methods defined
+
+    public void method1_oef002(){}
+
+    public void method2_oef002(){
+        return;
+    }
+
+    public Float method3_oef002(){
+        // return 12.3; // commented out
+                     // compile error
+                     // java: incompatible types: double cannot be converted to java.lang.Float
+
+        return 12.3f; // comment new line
+    }
+
+    public Float method4_oef002(){
+        return 12.3f;
+    }
+
+    public static void main(String[] args) {
+        Main_oef002 m = new Main_oef002();
+        m.method1_oef002();
+        m.method2_oef002();
+        m.method3_oef002();
+        m.method4_oef002();
+    }
+    // output
+    // ... niets
+}

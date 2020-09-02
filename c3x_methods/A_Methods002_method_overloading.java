@@ -3,7 +3,6 @@ package c3x_methods;
 public class A_Methods002_method_overloading {
 
     public static void main(String[] args) {
-        Oef001();
         Oef002();
         Oef003();
         Oef004();
@@ -13,18 +12,6 @@ public class A_Methods002_method_overloading {
         Oef008();
         Oef009();
         Oef010();
-    }
-
-    static void Oef001() {
-        print(42);
-        print(42L);
-    }
-    static void print(Long num){
-        System.out.println(num);
-    }
-
-    static void print(Object obj){
-        System.out.println("object: "+obj);
     }
 
     static void Oef002() {

@@ -3,7 +3,6 @@ package c3x_methods;
 public class A_Methods002_method_overloading {
 
     public static void main(String[] args) {
-        Oef002();
         Oef003();
         Oef004();
         Oef005();
@@ -14,19 +13,6 @@ public class A_Methods002_method_overloading {
         Oef010();
     }
 
-    static void Oef002() {
-        System.out.print(new A_Methods002_method_overloading().message);
-    }
-    private String message = null;
-
-    private  A_Methods002_method_overloading(){
-        String message = "default";
-        // this(message); // temp comment
-    }
-
-    private  A_Methods002_method_overloading(String message){
-        this.message = message;
-    }
     static void Oef003() {
 
     }

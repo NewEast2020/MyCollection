@@ -42,7 +42,7 @@ class Main_oef302 {
     static String message_oef302; // initialized to null by default
                                   // along with other un initialized instance variables
     //static final String message2_oef302; // this static variable us declared as
-                                         // final variable required to be initialzed in the declaration
+                                         // final variable required to be initialized in the declaration
                                          // or in the default constructor of the class
                                          // both is not there:
                                          // ==== compile error =====

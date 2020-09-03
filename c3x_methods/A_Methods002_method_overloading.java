@@ -76,7 +76,7 @@ class Main_oef201 {
 
                                 // the 42L int is a long int
                                 // it is converted to a Long integer object
-                                // the method call can match either definition\
+                                // the method call can match either definition
                                 // after the type conversion the method call matches
                                 // the first method(Long num) exactly
                                 // it only matches the second method method(Object obj)
@@ -87,7 +87,6 @@ class Main_oef201 {
     // this java class define 2 print methods
     // overloading the print methods name
     // output depends on which method matches each method call
-
 
     static void print_oef201(Long num){
         System.out.println("Long num: " + num);
@@ -104,4 +103,34 @@ class Main_oef201 {
 // by definition all constuctors must have the same method name
 // overloading constructors are in fact independant methods
 // and therefore they can call each other
-//
+class Main_oef202 {
+    private String message_oef202 = null;
+
+    // default contructor
+    private Main_oef202(){ //
+        // String message_oef202 = "default";  // ==== temp commented ===
+        // if an constructor calls another constructor
+        // the call must appear as the first statement
+        // this rule insures that an object is properly constructed
+        // before anything can be done to it
+        // this rule is violated in this example
+
+        //this(message_oef202); // === temp commented ===
+                                // second statement in the default constructor
+                                // call overloaded constructor
+                                // compile error
+                                // java: call to this must be first statement in constructor
+        this( "default"); // new line
+    }
+
+    private Main_oef202(String message_oef202){
+        this.message_oef202 = message_oef202;
+    }
+
+    public static void main(String[] args) {
+        System.out.print(new Main_oef202().message_oef202);
+    }
+
+    // output
+    // default
+}

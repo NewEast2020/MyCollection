@@ -84,5 +84,26 @@ class Main_oef301 {
     // Hello World!
 }
 
+// initialization of static fields
+// examples of 2 static fields
+// both variables are defined but not initialized
+
+class Main_oef302 {
+    static String message_oef302; // initialized to null by default
+                                  // along with other un initialized instance variables
+    //static final String message2_oef302; // this static variable us declared as
+                                         // final variable required to be initialzed in the declaration
+                                         // or in the default constructor of the class
+                                         // both is not there:
+                                         // ==== compile error =====
+                                         // java: variable message2_oef302 not initialized in the default constructor
+    static final String message2_oef302 = null ; // temp toegevoegd
+    public static void main(String[] args) {
+        System.out.println(message_oef302);
+        System.out.println(message2_oef302);
+    }
+}   // output:
+    // null
+    // null
 
 

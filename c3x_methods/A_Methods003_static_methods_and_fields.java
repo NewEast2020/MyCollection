@@ -3,7 +3,6 @@ package c3x_methods;
 public class A_Methods003_static_methods_and_fields {
 
     public static void main(String[] args) {
-        Oef002();
         Oef003();
         Oef004();
         Oef005();
@@ -13,15 +12,6 @@ public class A_Methods003_static_methods_and_fields {
         Oef009();
         Oef010();
     }
-
-    static String message;
-    //static final String message2; // temp comment
-
-    static void Oef002() {
-        System.out.println(message);
-//        System.out.println(message2); // temp comment
-    }
-
 
     static void Oef003() {
 

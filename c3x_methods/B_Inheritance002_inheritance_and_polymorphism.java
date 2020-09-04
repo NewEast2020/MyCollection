@@ -59,11 +59,6 @@ public class B_Inheritance002_inheritance_and_polymorphism {
     }
 }
 
-class B_Inheritance002_inheritance_and_polymorphism_oef1 extends B_Inheritance002_inheritance_and_polymorphism {
-    String message(){
-        return "World!";
-    }
-}
 class B_Inheritance002_inheritance_and_polymorphism_oef2 extends B_Inheritance002_inheritance_and_polymorphism {
     static String message(){
         return "World!";

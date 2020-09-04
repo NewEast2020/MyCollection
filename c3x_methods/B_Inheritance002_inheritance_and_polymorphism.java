@@ -3,7 +3,6 @@ package c3x_methods;
 public class B_Inheritance002_inheritance_and_polymorphism {
 
     public static void main(String[] args) {
-        Oef002();
         Oef003();
         Oef004();
         Oef005();
@@ -12,18 +11,6 @@ public class B_Inheritance002_inheritance_and_polymorphism {
         Oef008();
         Oef009();
         Oef010();
-    }
-
-
-    static void Oef002() {
-        B_Inheritance002_inheritance_and_polymorphism m = new B_Inheritance002_inheritance_and_polymorphism();
-        B_Inheritance002_inheritance_and_polymorphism m2 = new B_Inheritance002_inheritance_and_polymorphism_oef2();
-        System.out.println(m.message_oef2());
-        System.out.println(m2.message_oef2());
-    }
-
-    static Object message_oef2(){
-        return "Hello!";
     }
 
     static void Oef003() {

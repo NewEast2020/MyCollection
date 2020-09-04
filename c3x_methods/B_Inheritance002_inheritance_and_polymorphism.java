@@ -104,3 +104,4 @@ class B_Inheritance002_inheritance_and_polymorphism_oef4 extends B_Inheritance00
         return "World!";
     }
 }
+// inheritance promotes code reuse by allowing classes to share member definitions

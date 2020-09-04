@@ -146,3 +146,24 @@ class Main2_oefb202 extends Main_oefb202 {
         return "World!";
     }
 }
+
+class Main_oefb203 {
+    private String message_oefb203(){
+        return "Hello!";
+    }
+
+    void print_oefb203(){
+        System.out.println(message_oefb203());
+    }
+
+    public static void main(String[] args) {
+        new Main_oefb203().print_oefb203();
+        new Main2_oefb203().print_oefb203();
+    }
+}
+
+class Main2_oefb203 extends Main_oefb203 {
+    private String message_oefb203(){
+        return "World!";
+    }
+}

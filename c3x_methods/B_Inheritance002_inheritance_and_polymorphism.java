@@ -3,7 +3,6 @@ package c3x_methods;
 public class B_Inheritance002_inheritance_and_polymorphism {
 
     public static void main(String[] args) {
-        Oef003();
         Oef004();
         Oef005();
         Oef006();
@@ -132,6 +131,9 @@ class Main2_oefb202 extends Main_oefb202 {
     }
 }
 
+// 2 message methods , are private
+// private methods can not overridden either
+
 class Main_oefb203 {
     private String message_oefb203(){
         return "Hello!";
@@ -145,7 +147,9 @@ class Main_oefb203 {
         new Main_oefb203().print_oefb203();
         new Main2_oefb203().print_oefb203();
     }
-}
+} // output
+  //   Hello!
+  //   Hello!
 
 class Main2_oefb203 extends Main_oefb203 {
     private String message_oefb203(){

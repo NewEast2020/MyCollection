@@ -112,6 +112,9 @@ class Main_oefb201 {
         System.out.println(m2.message_oefb201());
     }
 }
+// output
+  // Hello!
+  // World!
 
 class Main2_oefb201 extends Main_oefb201 {
     String message_oefb201(){

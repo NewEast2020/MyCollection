@@ -152,3 +152,4 @@ class Main2_oefb203 extends Main_oefb203 {
         return "World!";
     }
 }
+// inheritance promotes code reuse by allowing classes to share member definitions

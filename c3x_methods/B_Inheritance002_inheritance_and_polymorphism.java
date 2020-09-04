@@ -13,17 +13,6 @@ public class B_Inheritance002_inheritance_and_polymorphism {
         Oef010();
     }
 
-    static void Oef003() {
-        new B_Inheritance002_inheritance_and_polymorphism().print_oef3();
-        new B_Inheritance002_inheritance_and_polymorphism_oef3().print_oef3();
-    }
-    private String message_oef3(){
-        return "Hello!";
-    }
-    void print_oef3(){
-        System.out.println(message_oef3());
-    }
-
     static void Oef004() {
         new B_Inheritance002_inheritance_and_polymorphism().print_oef4();
         new B_Inheritance002_inheritance_and_polymorphism_oef4().print_oef4();

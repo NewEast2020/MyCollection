@@ -92,6 +92,26 @@ class B_Inheritance002_inheritance_and_polymorphism_oef4 extends B_Inheritance00
         return "World!";
     }
 }
+// method overriding ;
+// different subclasses with a common superclass can have
+// different definitions for common methods
+
+// Main2 class extends Main class
+// message methods, overridden
+// class Main
+// class Main2
+// same header Object message_oefb201()
+//             String message_oefb201()
+// different return type
+// compatible return type
+// return type Object : child return type Object or smaller String
+// thrown exception : child same or smaller
+// first message is from Main
+// second mesage is from Main2
+// that is polymorphism in action:
+// the sane method called on the same object reference type
+// can have different behaviour
+
 
 class Main_oefb201 {
     Object message_oefb201(){
@@ -108,6 +128,25 @@ class Main_oefb201 {
 
 class Main2_oefb201 extends Main_oefb201 {
     String message_oefb201(){
+        return "World!";
+    }
+}
+
+class Main_oefb202 {
+    static Object message_oefb202(){
+        return "Hello!";
+    }
+
+    public static void main(String[] args) {
+        Main_oefb202 m = new Main_oefb202();
+        Main_oefb202 m2 = new Main2_oefb202();
+        System.out.println(m.message_oefb202());
+        System.out.println(m2.message_oefb202());
+    }
+}
+
+class Main2_oefb202 extends Main_oefb202 {
+    static String message_oefb202(){
         return "World!";
     }
 }

@@ -104,3 +104,22 @@ class B_Inheritance002_inheritance_and_polymorphism_oef4 extends B_Inheritance00
         return "World!";
     }
 }
+
+class Main_oefb201 {
+    Object message_oefb201(){
+        return "Hello!";
+    }
+
+    public static void main(String[] args) {
+        Main_oefb201 m = new Main_oefb201();
+        Main_oefb201 m2 = new Main2_oefb201();
+        System.out.println(m.message_oefb201());
+        System.out.println(m2.message_oefb201());
+    }
+}
+
+class Main2_oefb201 extends Main_oefb201 {
+    String message_oefb201(){
+        return "World!";
+    }
+}

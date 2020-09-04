@@ -106,11 +106,23 @@ class Main_oefb201 {
   // Hello!
   // World!
 
+
+
 class Main2_oefb201 extends Main_oefb201 {
     String message_oefb201(){
         return "World!";
     }
 }
+
+// main2 class extends main class
+// different output
+// static message method cannot be overwritten
+// when a static method is redefined in a subclass,
+// the definition in the parent class is simply hidden
+// a static member belongs to a class
+// the type of object reference determines which definition will be used
+// in this case object reference variables of the same type
+// point to the same static method definition
 
 class Main_oefb202 {
     static Object message_oefb202(){
@@ -124,6 +136,10 @@ class Main_oefb202 {
         System.out.println(m2.message_oefb202());
     }
 }
+
+// output
+  // Hello!
+  // Hello!
 
 class Main2_oefb202 extends Main_oefb202 {
     static String message_oefb202(){

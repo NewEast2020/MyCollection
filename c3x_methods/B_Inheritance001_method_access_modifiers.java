@@ -21,4 +21,7 @@ class Main_oefb001 {
     private void print_oefb001(){
         System.out.println(message_oefb001);
     }
-}
+} // output
+  //   hello
+  //   World!
+  //   World!

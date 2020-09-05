@@ -158,6 +158,9 @@ class Main2_oefb203 extends Main_oefb203 {
 }
 // inheritance promotes code reuse by allowing classes to share member definitions
 
+
+// 2 messages method, overriding, protected
+
 class Main_oefb204 {
     protected String message_oefb204(){
         return "Hello!";
@@ -172,6 +175,9 @@ class Main_oefb204 {
         new Main2_oefb204().print_oefb204();
     }
 }
+// output
+  // Hello!
+  // World!
 
 class Main2_oefb204 extends Main_oefb204 {
     protected String message_oefb204(){

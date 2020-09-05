@@ -3,56 +3,9 @@ package c3x_methods;
 public class B_Inheritance002_inheritance_and_polymorphism {
 
     public static void main(String[] args) {
-        Oef004();
-        Oef005();
-        Oef006();
-        Oef007();
-        Oef008();
-        Oef009();
-        Oef010();
-    }
-
-    static void Oef004() {
-        new B_Inheritance002_inheritance_and_polymorphism().print_oef4();
-        new B_Inheritance002_inheritance_and_polymorphism_oef4().print_oef4();
-    }
-    protected String message_oef4(){
-        return "Hello";
-    }
-    void print_oef4(){
-        System.out.println(message_oef4());
-    }
-    static void Oef005() {
-
-    }
-
-    static void Oef006() {
-
-    }
-
-    static void Oef007() {
-
-    }
-
-    static void Oef008() {
-
-    }
-
-    static void Oef009() {
-
-    }
-
-    static void Oef010() {
-
     }
 }
 
-
-class B_Inheritance002_inheritance_and_polymorphism_oef4 extends B_Inheritance002_inheritance_and_polymorphism {
-    protected String message(){
-        return "World!";
-    }
-}
 // method overriding ;
 // different subclasses with a common superclass can have
 // different definitions for common methods
@@ -159,7 +112,10 @@ class Main2_oefb203 extends Main_oefb203 {
 // inheritance promotes code reuse by allowing classes to share member definitions
 
 
-// 2 messages method, overriding, protected
+// 2 messages method, protected, what will happen
+// with protected methods, method overriding will happen again
+// because protected methods are visible in subclasses
+// the print 2nd method can see and use the new print method
 
 class Main_oefb204 {
     protected String message_oefb204(){

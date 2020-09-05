@@ -157,3 +157,24 @@ class Main2_oefb203 extends Main_oefb203 {
     }
 }
 // inheritance promotes code reuse by allowing classes to share member definitions
+
+class Main_oefb204 {
+    protected String message_oefb204(){
+        return "Hello!";
+    }
+
+    void print_oefb204(){
+        System.out.println(message_oefb204());
+    }
+
+    public static void main(String[] args) {
+        new Main_oefb204().print_oefb204();
+        new Main2_oefb204().print_oefb204();
+    }
+}
+
+class Main2_oefb204 extends Main_oefb204 {
+    protected String message_oefb204(){
+        return "World!";
+    }
+}

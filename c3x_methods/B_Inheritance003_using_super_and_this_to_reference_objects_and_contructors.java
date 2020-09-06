@@ -133,12 +133,6 @@ class Main_oefb301 extends Example_oefb301{
     public static void main(String[] args) {
         System.out.println(new Main_oefb301().message_oefb301);
     }
-
-//    public Main_oefb301(int waarde){
-//        // compile error: there is no default constuctor available
-//        super.message_oefb301 = "Hello";
-//    }
-
 }
 // output
 // Hello

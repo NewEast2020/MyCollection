@@ -56,25 +56,6 @@ public class B_Inheritance003_using_super_and_this_to_reference_objects_and_cont
     }
 }
 
-class Example_oef1 {
-    protected String message;
-
-    public Example_oef1(String message){
-        this.message = message;
-    }
-}
-
-class Main_oef1 extends Example_oef1{
-    public Main_oef1(){
-        super("Hello");
-        super.message = "Hello";
-    }
-
-    public static void main(String[] args) {
-        System.out.println(new Main_oef1().message);
-    }
-}
-
 class Example_oef2 {
     private String message;
 

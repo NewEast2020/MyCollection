@@ -145,3 +145,5 @@ class Main_oefb301 extends Example_oefb301{
         System.out.println(new Main_oefb301().message_oefb301);
     }
 }
+// output
+// Hello

@@ -100,3 +100,48 @@ class Main_oef2 extends Example_oef2{
         return super.toString()+"!";
     }
 }
+// There are 2 special keywords in java
+// This and Super
+// important in the context of inheritance because
+
+// this refers to current class instance;
+// this can be used as arguments or return values
+// this() invokes current class constructors (default and overloaded)
+
+// super refers to immediate parent class instance variable or methods
+// super() invokes immediately parent class constuctors (default and overloaded)
+
+// A constructor in any class must invoke one of the constructors in the
+// immediate parent class using the super keyword
+
+// if it is not typed implicitly
+// the compiler will insert the call on the default constructor of the immediately parent class
+
+// if a class defines no constructor at all
+// the compiler will insert a default constructor that will cause the default constructor
+// to call the constructor of the immediate parent class
+
+// uses of this is similair
+// key difference
+// this can literally used as an object reference to the current class instance
+// this can be passed as arguments or returned as return values
+
+// super can only be used to refer to members of the immediate parent class
+class Example_oefb301 {
+    protected String message_oefb301;
+
+    public Example_oefb301(String message_oefb301){
+        this.message_oefb301 = message_oefb301;
+    }
+}
+
+class Main_oefb301 extends Example_oefb301{
+    public Main_oefb301(){
+        super("Hello");
+        super.message_oefb301 = "Hello";
+    }
+
+    public static void main(String[] args) {
+        System.out.println(new Main_oefb301().message_oefb301);
+    }
+}

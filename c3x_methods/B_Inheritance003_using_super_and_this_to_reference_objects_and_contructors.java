@@ -108,23 +108,37 @@ class Main_oef2 extends Example_oef2{
 // this can be passed as arguments or returned as return values
 
 // super can only be used to refer to members of the immediate parent class
+
+// Main class extends Example class
+// class Example has an overloaded constructor (no arg constructor disappeared)
+// class Main has a default constructor
 class Example_oefb301 {
     protected String message_oefb301;
 
     public Example_oefb301(String message_oefb301){
         this.message_oefb301 = message_oefb301;
     }
+    // because of constructor exist
+    // java is not add a default no-argument constructor for us
 }
 
 class Main_oefb301 extends Example_oefb301{
     public Main_oefb301(){
-        super("Hello");
+        // compile error: there is no default constuctor available
+        super("Hello"); // inserted line
+                                      // else super() xxx
         super.message_oefb301 = "Hello";
     }
 
     public static void main(String[] args) {
         System.out.println(new Main_oefb301().message_oefb301);
     }
+
+//    public Main_oefb301(int waarde){
+//        // compile error: there is no default constuctor available
+//        super.message_oefb301 = "Hello";
+//    }
+
 }
 // output
 // Hello
